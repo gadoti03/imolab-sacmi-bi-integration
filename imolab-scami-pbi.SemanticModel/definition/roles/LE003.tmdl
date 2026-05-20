@@ -1,0 +1,13 @@
+role LE003
+	modelPermission: read
+
+	tablePermission Giacenze = [legal_entity] == "LE003"
+
+	tablePermission Magazzini = [legal_entity] == "LE003"
+
+	tablePermission 'Ordini Acquisto' = [legal_entity] == "LE003"
+
+	tablePermission 'Ordini Vendita' = [legal_entity] == "LE003"
+
+	annotation PBI_Id = fb08832e7ce741b09364d053a40603f8
+

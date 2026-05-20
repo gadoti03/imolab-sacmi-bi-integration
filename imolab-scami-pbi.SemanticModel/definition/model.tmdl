@@ -1,0 +1,36 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: it-IT
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Clienti","Ordini Acquisto","Fornitori","Magazzini","Ordini Vendita","Articoli","Giacenze","Entita Legale","REPO_ROOT"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Metrics
+ref table Data
+ref table Clienti
+ref table 'Ordini Acquisto'
+ref table Fornitori
+ref table Magazzini
+ref table 'Ordini Vendita'
+ref table Articoli
+ref table DateTableTemplate_2e7fe958-a254-4db1-83ed-911acc9cf036
+ref table LocalDateTable_5e98dd50-4c01-4394-b18e-7a75ea56c90d
+ref table LocalDateTable_1c2971ad-0edc-4bf1-afbc-91dd39f3a3be
+ref table LocalDateTable_6cdb0476-7eed-41a6-a439-e1d1e2a4d582
+ref table 'Top N'
+ref table Giacenze
+ref table 'Entita Legale'
+
+ref role LE001
+ref role LE002
+ref role LE003
+
+ref cultureInfo en-US
+

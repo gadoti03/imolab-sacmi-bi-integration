@@ -1,0 +1,31 @@
+table 'Top N'
+	lineageTag: 2e48d874-d347-4b35-9fa0-0624f34e74cf
+
+	measure 'Valore Top N' = SELECTEDVALUE('Top N'[Top N])
+		formatString: 0
+		lineageTag: e9527203-cb3d-4922-94a9-df9077e62191
+
+	column 'Top N'
+		formatString: 0
+		lineageTag: 2ec376ff-95e8-4ce7-bc7d-1f0b6cd70c2f
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+		annotation SummarizationSetBy = User
+
+	partition 'Top N' = calculated
+		mode: import
+		source =
+				
+				VAR MaxFornitori = COUNTROWS(ALL('Fornitori'))
+				VAR MaxClienti = COUNTROWS(ALL('Clienti'))
+				RETURN
+				GENERATESERIES(1, MAX(MaxFornitori, MaxClienti), 1)
+
+	annotation PBI_Id = 448438b5bf3c47048f13420b5b17891e
+

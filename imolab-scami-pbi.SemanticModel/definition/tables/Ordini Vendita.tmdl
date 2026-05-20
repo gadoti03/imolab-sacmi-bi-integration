@@ -1,0 +1,115 @@
+table 'Ordini Vendita'
+	lineageTag: 989751bf-4eab-4d86-8aea-45ea9b7bb36d
+
+	column cod_articolo
+		dataType: string
+		lineageTag: e7b77901-37e9-4ee0-8d59-8325be80ed46
+		summarizeBy: none
+		sourceColumn: cod_articolo
+
+		annotation SummarizationSetBy = Automatic
+
+	column cod_cliente
+		dataType: string
+		lineageTag: 842e049d-4825-4566-b360-38fad8af2e0e
+		summarizeBy: none
+		sourceColumn: cod_cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column legal_entity
+		dataType: string
+		lineageTag: 21305694-0af0-4c20-bf9a-8f4cc35f41a1
+		summarizeBy: none
+		sourceColumn: legal_entity
+
+		annotation SummarizationSetBy = Automatic
+
+	column num_ordine
+		dataType: string
+		lineageTag: 3f4c57d9-0491-4277-b510-e6fd8a458a50
+		summarizeBy: none
+		sourceColumn: num_ordine
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_ordine
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9bb3a9cc-f9d4-418e-acd3-59b0a54f7794
+		summarizeBy: none
+		sourceColumn: data_ordine
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column data_consegna
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1de34639-a150-48f5-861e-fcc727e3fec1
+		summarizeBy: none
+		sourceColumn: data_consegna
+
+		variation Variation
+			isDefault
+			relationship: a34800a6-fb72-46cd-b78b-4ef590e32b28
+			defaultHierarchy: LocalDateTable_6cdb0476-7eed-41a6-a439-e1d1e2a4d582.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column qta
+		dataType: int64
+		formatString: 0
+		lineageTag: f752daaf-8110-46c1-89b4-2a897cf15c30
+		summarizeBy: sum
+		sourceColumn: qta
+
+		annotation SummarizationSetBy = Automatic
+
+	column prezzo_unitario
+		dataType: decimal
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: a14c0da4-1ecf-454d-b3c2-316114e89a00
+		summarizeBy: sum
+		sourceColumn: prezzo_unitario
+
+		annotation SummarizationSetBy = Automatic
+
+	column valore_totale
+		dataType: decimal
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 1e9e090e-1ae4-481a-bd02-335399b27afc
+		summarizeBy: sum
+		sourceColumn: valore_totale
+
+		annotation SummarizationSetBy = Automatic
+
+	column margine_pct
+		dataType: double
+		lineageTag: 1ec630d6-af3b-45df-ac7e-6f0646dfaa53
+		summarizeBy: sum
+		sourceColumn: margine_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Ordini Vendita' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(REPO_ROOT & "\data\erp_gamma_ordini_vendita.csv"),[Delimiter=",", Columns=10, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"cod_articolo", type text}, {"cod_cliente", type text}, {"legal_entity", type text}, {"num_ordine", type text}, {"data_ordine", type date}, {"data_consegna", type date}, {"qta", Int64.Type}}),
+				    #"Fix Decimal Separator" = Table.TransformColumnTypes(#"Changed Type",{{"prezzo_unitario", Currency.Type}, {"valore_totale", Currency.Type}, {"margine_pct", Percentage.Type}}, "en-US"),
+				    #"Divided Column" = Table.TransformColumns(#"Fix Decimal Separator", {{"margine_pct", each _ / 100, Percentage.Type}})
+				in
+				    #"Divided Column"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

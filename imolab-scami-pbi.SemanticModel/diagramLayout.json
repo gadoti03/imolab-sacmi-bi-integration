@@ -1,0 +1,159 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 64.848047740288848,
+        "y": 108.48655618422848
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1089.6756863128021,
+            "y": 691.13647249199562
+          },
+          "nodeIndex": "Metrics",
+          "nodeLineageTag": "365b7176-c774-4d97-9259-d740dc62e158",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 18.262718299164817,
+            "y": 67.119210326499612
+          },
+          "nodeIndex": "Clienti",
+          "size": {
+            "height": 358.88736737573043,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 0
+          },
+          "nodeIndex": "Ordini Acquisto",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 524.167046317388,
+            "y": 0
+          },
+          "nodeIndex": "Fornitori",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 812.27638572513285,
+            "y": 341.04935459377373
+          },
+          "nodeIndex": "Magazzini",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 1420,
+            "y": 0
+          },
+          "nodeIndex": "Ordini Vendita",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 471.50645406226266
+          },
+          "nodeIndex": "Articoli",
+          "size": {
+            "height": 285.82722817396177,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 675.13902441154687,
+            "y": 680.17823407134279
+          },
+          "nodeIndex": "Data",
+          "nodeLineageTag": "fd9a9e30-19ee-4cfe-95dc-856f44861aea",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 264.36142748671216,
+            "y": 692.479397977205
+          },
+          "nodeIndex": "Giacenze",
+          "nodeLineageTag": "9b928d17-3c09-44d0-a857-37b4756607ec",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 1379.3621867881548,
+            "y": 708.94560906300615
+          },
+          "nodeIndex": "Entita Legale",
+          "nodeLineageTag": "67e3a5d2-b388-40b3-8947-a2fe1658f745",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1704,
+            "y": 333.56823624599781
+          },
+          "nodeIndex": "Top N",
+          "nodeLineageTag": "2e48d874-d347-4b35-9fa0-0624f34e74cf",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 73.004434589800454,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

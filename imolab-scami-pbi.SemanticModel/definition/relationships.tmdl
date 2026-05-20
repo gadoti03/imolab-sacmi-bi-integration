@@ -1,0 +1,74 @@
+relationship AutoDetected_c2385c86-6713-4fc7-b3a6-c512789b3d12
+	fromColumn: 'Ordini Vendita'.cod_cliente
+	toColumn: Clienti.cod_cliente
+
+relationship AutoDetected_daa14311-51f8-407f-b328-3edf54fe16f8
+	fromColumn: 'Ordini Acquisto'.cod_articolo
+	toColumn: Articoli.cod_articolo
+
+relationship AutoDetected_9420c826-39f2-4903-a3f2-b99508a35c2f
+	fromColumn: 'Ordini Vendita'.cod_articolo
+	toColumn: Articoli.cod_articolo
+
+relationship AutoDetected_2a4df78f-20cb-41e3-a231-2625ab89c431
+	fromColumn: 'Ordini Acquisto'.cod_magazzino
+	toColumn: Magazzini.cod_magazzino
+
+relationship AutoDetected_e4263dc2-6f88-4dcc-ad32-931128b4b6c5
+	fromColumn: 'Ordini Acquisto'.cod_fornitore
+	toColumn: Fornitori.cod_fornitore
+
+relationship 35e440de-fff1-4501-b78c-dc87c84dad96
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Data.Data
+	toColumn: LocalDateTable_5e98dd50-4c01-4394-b18e-7a75ea56c90d.Date
+
+relationship e4371112-18e4-d6c6-befa-073918b1d5b0
+	isActive: false
+	fromColumn: Clienti.attivo_al
+	toColumn: Data.Data
+
+relationship 7acd5768-195c-e523-39cf-0e3c92fd89b4
+	isActive: false
+	fromColumn: Clienti.attivo_dal
+	toColumn: Data.Data
+
+relationship 69aba0b8-bb33-5a29-19e8-9c9c29b3aa5d
+	fromColumn: 'Ordini Acquisto'.data_ordine
+	toColumn: Data.Data
+
+relationship 9a22ab08-3f93-0938-e975-e402d7aa986e
+	fromColumn: 'Ordini Vendita'.data_ordine
+	toColumn: Data.Data
+
+relationship 19667d2b-902a-4bcf-bd7f-15ff166779b9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Ordini Acquisto'.data_arrivo
+	toColumn: LocalDateTable_1c2971ad-0edc-4bf1-afbc-91dd39f3a3be.Date
+
+relationship a34800a6-fb72-46cd-b78b-4ef590e32b28
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Ordini Vendita'.data_consegna
+	toColumn: LocalDateTable_6cdb0476-7eed-41a6-a439-e1d1e2a4d582.Date
+
+relationship a6c9ef8c-0c0d-46f9-a140-747719654bc6
+	fromColumn: Giacenze.date
+	toColumn: Data.Data
+
+relationship AutoDetected_a8071a16-1946-47f6-8753-05c8469a5701
+	fromColumn: Magazzini.nazione
+	toColumn: 'Entita Legale'.nazione
+
+relationship AutoDetected_d9540cec-11fc-4c1b-8aca-a4d5f5aa2eac
+	isActive: false
+	fromColumn: 'Ordini Acquisto'.legal_entity
+	toColumn: 'Entita Legale'.legal_entity
+
+relationship AutoDetected_8da2db1b-a52e-4f0b-b687-1d4c2017088b
+	fromColumn: 'Ordini Vendita'.legal_entity
+	toColumn: 'Entita Legale'.legal_entity
+
+relationship AutoDetected_84f93699-bf04-4b0b-a863-439391ce604c
+	fromColumn: Giacenze.legal_entity
+	toColumn: 'Entita Legale'.legal_entity
+

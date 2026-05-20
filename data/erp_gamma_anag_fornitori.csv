@@ -1,0 +1,81 @@
+cod_fornitore,partita_iva,ragione_sociale,via,comune,nazione,cap,categoria_principale,legal_entity
+SUP001,IT27260761486,"Smart Allied Sas","Strada Italia 28",Reggio Emilia,IT,42100,Semilavorati Gomma,LE002
+SUP002,IT90519108725,"Solid United Srl","Strada dell'Industria 135",Reggio Emilia,IT,42100,Imballaggi Industriali,LE001
+SUP003,IT83304028185,"Net Inno Srl","Via Edison 103",Brescia,IT,25100,Prodotti Chimici,LE002
+SUP004,IT81840393434,"Digital Base SpA","Corso della Meccanica 111",Piacenza,IT,29100,Semilavorati Gomma,LE002
+SUP005,IT19542529610,"United Supply Sas","Largo Dante 99",Genova,IT,16100,Componentistica Elettronica,LE001
+SUP006,AE25622622278,"Plast System PLC","Strada Logistica 105",Dubai,AE,46252,Componentistica Elettronica,LE002
+SUP007,ES58925324622,"Group Supply Lda","Strada dell'Industria 50",Madrid,ES,60144,Meccanica di Precisione,LE002
+SUP008,IT10343883168,"Green Supply SpA","Strada Dante 132",Roma,IT,00100,Prodotti Chimici,LE002
+SUP009,IT33216066852,"Capital Auto SpA","Corso Garibaldi 230",Vicenza,IT,36100,Prodotti Chimici,LE001
+SUP010,IT55426326698,"Group Alpha SpA","Strada Edison 220",Vicenza,IT,36100,Componentistica Elettronica,LE001
+SUP011,CA71386291012,"Precision Tech BV","Via Cavour 70",Toronto,CA,63563,Imballaggi Industriali,LE003
+SUP012,US23608092347,"Alpha Pro SA","Viale Verdi 122",Los Angeles,US,55466,Componentistica Elettronica,LE002
+SUP013,IT66739557787,"Manuf Auto Sas","Corso del Lavoro 193",Genova,IT,16100,Prodotti Chimici,LE001
+SUP014,ES95802948315,"Capital Supply Ltd","Piazza Garibaldi 127",Barcelona,ES,87679,Tessuti Tecnici,LE003
+SUP015,US82059839978,"Venture United SA","Corso del Lavoro 171",Los Angeles,US,91943,Acciaio e Metalli,LE002
+SUP016,IT30212541832,"Logistic Green Srl","Largo dell'Innovazione 156",Firenze,IT,50100,Prodotti Finiti,LE002
+SUP017,ES10625775456,"Solid Global AB","Strada Europa 52",Barcelona,ES,83528,Prodotti Chimici,LE002
+SUP018,AU65026002678,"Net Hub GmbH","Strada Roma 170",Sydney,AU,50636,Imballaggi Industriali,LE001
+SUP019,ZA65386430466,"Connect Venture SA","Largo Roma 148",Johannesburg,ZA,55067,Sistemi Idraulici,LE003
+SUP020,IT90214191286,"Power Manuf SpA","Viale della Tecnologia 184",Firenze,IT,50100,Acciaio e Metalli,LE001
+SUP021,NO58631848250,"Flex Flex Corp","Piazza Marconi 160",Oslo,NO,56794,Meccanica di Precisione,LE003
+SUP022,RO85332041644,"Power Advanced SRL","Corso Marconi 14",Bucharest,RO,22479,Sistemi Idraulici,LE001
+SUP023,JP87228841103,"Fast Metal Ltd","Largo Cavour 71",Tokyo,JP,26497,Meccanica di Precisione,LE002
+SUP024,IT98084356996,"Capital Plast Srl","Viale Verdi 94",Parma,IT,43100,Tessuti Tecnici,LE003
+SUP025,IT64441318643,"Plast Trade Srl","Largo del Lavoro 216",Roma,IT,00100,Acciaio e Metalli,LE002
+SUP026,SG39624463622,"Hub Flex SA","Via del Lavoro 188",Singapore,SG,17654,Tessuti Tecnici,LE001
+SUP027,US35230582387,"Base Euro AS","Viale Verdi 248",Houston,US,48177,Materie Plastiche,LE001
+SUP028,CN11014072799,"Smart Power Corp","Largo Edison 144",Beijing,CN,88997,Prodotti Finiti,LE003
+SUP029,AU73095032519,"Digital Capital SA","Corso Commerciale 185",Sydney,AU,19976,Tessuti Tecnici,LE001
+SUP030,ES59175933720,"Hub Beta BV","Viale dell'Innovazione 184",Barcelona,ES,73547,Imballaggi Industriali,LE001
+SUP031,ES38611813629,"Solid Plast SA","Via Artigianale 238",Barcelona,ES,16860,Imballaggi Industriali,LE002
+SUP032,IT34420163599,"Inno Trade Sas","Piazza Artigianale 103",Udine,IT,33100,Acciaio e Metalli,LE003
+SUP033,CN95766223195,"Allied Venture BV","Via del Lavoro 185",Beijing,CN,25477,Materie Plastiche,LE002
+SUP034,PL23973581589,"Flex United PLC","Strada Cavour 247",Warsaw,PL,52753,Prodotti Chimici,LE001
+SUP035,IT49655587088,"Plast Global Srl","Piazza Commerciale 143",Firenze,IT,50100,Componentistica Elettronica,LE003
+SUP036,CH95261560058,"Euro Prime AS","Largo Cavour 70",Zurich,CH,77391,Tessuti Tecnici,LE002
+SUP037,DE64271863173,"Metal Prime Lda","Largo Dante 46",Hamburg,DE,56579,Tessuti Tecnici,LE001
+SUP038,CN29047496036,"Pro Manuf BV","Largo Edison 247",Shanghai,CN,49995,Prodotti Chimici,LE001
+SUP039,CA62765536434,"Prime Beta PLC","Largo Marconi 47",Toronto,CA,19771,Prodotti Chimici,LE002
+SUP040,PL65324291667,"Precision Capital AB","Corso Marconi 137",Warsaw,PL,67468,Prodotti Finiti,LE002
+SUP041,US81523840614,"Energy Power Inc","Corso Manzoni 63",Chicago,US,88950,Imballaggi Industriali,LE002
+SUP042,IT63125205848,"Beta Tech Srl","Corso Commerciale 4",Napoli,IT,80100,Imballaggi Industriali,LE001
+SUP043,ES44552697365,"Solid Alpha BV","Piazza Manzoni 172",Madrid,ES,34915,Materie Plastiche,LE003
+SUP044,NL90797643265,"Fast Distrib AG","Piazza dell'Innovazione 1",Amsterdam,NL,78516,Acciaio e Metalli,LE002
+SUP045,IT57274047368,"Manuf Advanced Sas","Strada Europa 206",Udine,IT,33100,Imballaggi Industriali,LE002
+SUP046,ES96622199387,"Flex Advanced SAS","Corso Commerciale 238",Madrid,ES,45570,Componentistica Elettronica,LE002
+SUP047,ES45535673933,"Advanced Logistic SRL","Via Dante 237",Barcelona,ES,70892,Prodotti Finiti,LE003
+SUP048,IT88767655575,"Beta Beta Sas","Corso Edison 226",Parma,IT,43100,Semilavorati Gomma,LE002
+SUP049,AE29355903030,"Plast Power LLC","Viale Manzoni 21",Dubai,AE,72091,Acciaio e Metalli,LE002
+SUP050,IT41624432029,"Auto Group Sas","Largo Edison 71",Bergamo,IT,24100,Prodotti Chimici,LE001
+SUP051,DE27697644007,"Green Group AG","Corso della Meccanica 121",Hamburg,DE,81550,Meccanica di Precisione,LE003
+SUP052,IT15693462925,"Green Prime Srl","Strada Dante 23",Modena,IT,41100,Acciaio e Metalli,LE001
+SUP053,BE14969890021,"Venture Trade SAS","Corso Europa 149",Brussels,BE,55352,Imballaggi Industriali,LE002
+SUP054,CN76547408831,"International Plast AS","Corso Verdi 69",Beijing,CN,27294,Acciaio e Metalli,LE001
+SUP055,PT16474867944,"Alpha Advanced BV","Strada Dante 123",Lisbon,PT,35533,Acciaio e Metalli,LE003
+SUP056,AT41193762824,"Smart Inno Ltd","Strada delle Officine 122",Vienna,AT,15775,Sistemi Idraulici,LE002
+SUP057,IT39552476066,"International Base Srl","Strada Cavour 225",Modena,IT,41100,Materie Plastiche,LE003
+SUP058,US32374656333,"Plast Connect SRL","Viale Europa 19",Houston,US,87610,Semilavorati Gomma,LE001
+SUP059,BR92274239834,"Core Core AS","Strada delle Officine 167",São Paulo,BR,19069,Acciaio e Metalli,LE003
+SUP060,CN17361718750,"Prime Flex GmbH","Via Garibaldi 22",Beijing,CN,12608,Materie Plastiche,LE002
+SUP061,CZ75539798814,"Manuf Advanced SA","Corso dell'Industria 235",Prague,CZ,58841,Imballaggi Industriali,LE003
+SUP062,IT63098872800,"Alpha Trade Srl","Viale della Produzione 49",Torino,IT,10100,Meccanica di Precisione,LE003
+SUP063,NL95774532008,"Inno International Ltd","Via Italia 153",Rotterdam,NL,69721,Semilavorati Gomma,LE001
+SUP064,ZA45848427739,"Capital Energy Ltd","Via della Produzione 118",Johannesburg,ZA,20640,Meccanica di Precisione,LE003
+SUP065,IT77122160437,"Capital Advanced SpA","Strada Garibaldi 21",Verona,IT,37100,Meccanica di Precisione,LE001
+SUP066,US54873663376,"Prime Global Ltd","Via Dante 39",Los Angeles,US,72318,Sistemi Idraulici,LE002
+SUP067,IT76785724276,"Advanced Beta SpA","Strada Europa 13",Genova,IT,16100,Semilavorati Gomma,LE001
+SUP068,RO33905148078,"Plast Power BV","Corso Europa 74",Bucharest,RO,99285,Meccanica di Precisione,LE001
+SUP069,DK29838868165,"Logistic Green SAS","Piazza Garibaldi 99",Copenhagen,DK,62741,Prodotti Finiti,LE001
+SUP070,IN19125265625,"Link Logistic SRL","Strada della Produzione 182",Mumbai,IN,91805,Tessuti Tecnici,LE002
+SUP071,EG51360895703,"System Group AG","Via Italia 215",Cairo,EG,12337,Imballaggi Industriali,LE001
+SUP072,NL70628588339,"Alpha Inno LLC","Viale Cavour 49",Rotterdam,NL,19618,Sistemi Idraulici,LE002
+SUP073,NO64115001911,"Beta Tech LLC","Piazza Edison 97",Oslo,NO,89475,Materie Plastiche,LE003
+SUP074,IE29761380068,"Hub Venture LLC","Corso Dante 204",Dublin,IE,22661,Imballaggi Industriali,LE001
+SUP075,US65291261709,"Solid Trade SA","Via Cavour 110",Los Angeles,US,87330,Prodotti Chimici,LE001
+SUP076,SG93458894003,"Plast Capital AG","Corso Garibaldi 193",Singapore,SG,86955,Materie Plastiche,LE003
+SUP077,PL20862098641,"Dynamic International GmbH","Piazza Marconi 214",Warsaw,PL,13517,Imballaggi Industriali,LE002
+SUP078,IT32662975278,"United System SpA","Via della Meccanica 156",Firenze,IT,50100,Acciaio e Metalli,LE001
+SUP079,IE99642454665,"Group System GmbH","Via dell'Innovazione 61",Dublin,IE,97814,Imballaggi Industriali,LE002
+SUP080,BR34222251170,"Trade Dynamic GmbH","Largo dell'Industria 223",São Paulo,BR,93749,Imballaggi Industriali,LE001

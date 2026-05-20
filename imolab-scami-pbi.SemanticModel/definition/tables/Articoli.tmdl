@@ -1,0 +1,88 @@
+table Articoli
+	lineageTag: e87d8f11-e833-42e7-a658-aa756ea9fcde
+
+	column cod_articolo
+		dataType: string
+		lineageTag: 9638e30c-644a-435b-aea8-ee1a164de149
+		summarizeBy: none
+		sourceColumn: cod_articolo
+
+		annotation SummarizationSetBy = Automatic
+
+	column descrizione
+		dataType: string
+		lineageTag: 3795138c-44b4-4c29-95d5-6a97aefdeb28
+		summarizeBy: none
+		sourceColumn: descrizione
+
+		annotation SummarizationSetBy = Automatic
+
+	column famiglia
+		dataType: string
+		lineageTag: e5a68ce9-bcb8-4b72-b7f2-71b54e5fb375
+		summarizeBy: none
+		sourceColumn: famiglia
+
+		annotation SummarizationSetBy = Automatic
+
+	column sottofamiglia
+		dataType: string
+		lineageTag: e613f37f-4065-4cfa-a466-29115b446459
+		summarizeBy: none
+		sourceColumn: sottofamiglia
+
+		annotation SummarizationSetBy = Automatic
+
+	column um
+		dataType: string
+		lineageTag: 669638e4-2f1d-4dae-ab1b-2be8b1f27ded
+		summarizeBy: none
+		sourceColumn: um
+
+		annotation SummarizationSetBy = Automatic
+
+	column peso_kg
+		dataType: double
+		lineageTag: 9fdd48da-0099-4922-a7fa-1613258f635e
+		summarizeBy: sum
+		sourceColumn: peso_kg
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column prezzo_costo
+		dataType: decimal
+		lineageTag: c907e3eb-5af3-4efb-8c61-b35d65f9c48b
+		summarizeBy: sum
+		sourceColumn: prezzo_costo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column prezzo_listino
+		dataType: decimal
+		lineageTag: 4b883616-c70a-4de2-a314-181663c72905
+		summarizeBy: sum
+		sourceColumn: prezzo_listino
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Articoli = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(REPO_ROOT & "\data\erp_gamma_articoli.csv"),[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"cod_articolo", type text}, {"descrizione", type text}, {"famiglia", type text}, {"sottofamiglia", type text}, {"um", type text}, {"peso_kg", type number}}),
+				    #"Fix Decimal Separator" = Table.TransformColumnTypes(#"Changed Type",{{"prezzo_listino", Currency.Type}, {"prezzo_costo", Currency.Type}}, "en-US")
+				in
+				    #"Fix Decimal Separator"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

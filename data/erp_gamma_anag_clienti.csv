@@ -1,0 +1,101 @@
+cod_cliente,partita_iva,ragione_sociale,via,comune,nazione,cap,segmento,legal_entity,attivo_dal,attivo_al
+CLI001,RO63403850652,"Power Net Lda","Largo Europa 95",Bucharest,RO,46207,Startup,LE002,01-01-2023,31-12-2024
+CLI002,IT35950389009,"Base Digital Sas","Viale Logistica 53",Modena,IT,41100,Large Enterprise,LE003,01-01-2023,31-12-2024
+CLI003,IT95304008090,"Auto Advanced Sas","Viale Garibaldi 88",Firenze,IT,50100,Large Enterprise,LE003,01-01-2021,31-12-2024
+CLI004,FI27122108358,"Prime Metal Ltd","Piazza del Lavoro 224",Helsinki,FI,19200,OEM,LE001,01-01-2021,31-12-2024
+CLI005,ZA39977429190,"Allied Venture PLC","Viale dell'Innovazione 63",Johannesburg,ZA,90282,Public Sector,LE001,01-01-2021,31-12-2024
+CLI006,FI83649402096,"Precision Net Ltd","Piazza Artigianale 35",Helsinki,FI,58141,Distributor,LE002,01-01-2021,31-12-2022
+CLI007,,"Digital Alpha BV","Viale Artigianale 206",Taipei,TW,48202,OEM,LE001,01-01-2021,31-12-2022
+CLI008,IT10840053342,"Fast Trade Srl","Strada Roma 46",Venezia,IT,30100,OEM,LE001,01-01-2021,31-12-2022
+CLI009,,"Prime Alpha Srl","Largo Logistica 114",Torino,IT,10100,Startup,LE003,01-01-2021,31-12-2024
+CLI010,IT85370038739,"Distrib Connect Srl","Viale dell'Industria 123",Venezia,IT,30100,Small Business,LE002,01-01-2021,31-12-2024
+CLI011,NL59476137198,"Venture Precision Lda","Corso Edison 140",Amsterdam,NL,88035,Large Enterprise,LE003,01-01-2021,31-12-2024
+CLI012,LV69112321564,"Green Prime Ltd","Viale Roma 110",Riga,LV,70530,Public Sector,LE001,01-01-2021,31-12-2024
+CLI013,IT51059699850,"Alpha Alpha SpA","Corso della Meccanica 212",Parma,IT,43100,Startup,LE001,01-01-2021,31-12-2024
+CLI014,,"Solution Digital Ltd","Via dell'Industria 173",Copenhagen,DK,14509,Mid Market,LE003,01-01-2023,31-12-2024
+CLI015,IT47584235586,"Global Power Sas","Corso delle Officine 134",Bergamo,IT,24100,Small Business,LE001,01-01-2023,31-12-2024
+CLI016,IT71943262736,"Energy United Srl","Viale della Produzione 19",Roma,IT,00100,Small Business,LE003,01-01-2021,31-12-2024
+CLI017,TR10337916887,"Solution System SAS","Via della Tecnologia 236",Istanbul,TR,24777,Mid Market,LE002,01-01-2021,31-12-2024
+CLI018,,"Venture Prime BV","Viale Dante 135",Bucharest,RO,48271,OEM,LE003,01-01-2024,31-12-2024
+CLI019,IT36741389170,"Energy Advanced Srl","Viale Roma 13",Parma,IT,43100,Public Sector,LE002,01-01-2021,31-12-2024
+CLI020,IT99807547794,"Precision Solution Sas","Piazza Dante 43",Vicenza,IT,36100,Small Business,LE003,01-01-2021,31-12-2022
+CLI021,RO47371899745,"Force Logistic GmbH","Piazza Commerciale 14",Bucharest,RO,21227,Mid Market,LE003,01-01-2021,31-12-2022
+CLI022,IT25955817179,"Euro Precision Srl","Via Europa 34",Modena,IT,41100,Public Sector,LE003,01-01-2021,31-12-2022
+CLI023,KR10006548550,"International Distrib GmbH","Corso Garibaldi 142",Seoul,KR,52366,Distributor,LE002,01-01-2021,31-12-2024
+CLI024,IT58814803047,"Group Precision Srl","Piazza dell'Innovazione 155",Vicenza,IT,36100,Mid Market,LE003,01-01-2021,31-12-2024
+CLI025,,"Energy Alpha SpA","Corso della Tecnologia 235",Piacenza,IT,29100,Large Enterprise,LE003,01-01-2023,31-12-2024
+CLI026,DE58982474994,"Metal Precision Corp","Strada Roma 70",Berlin,DE,71661,OEM,LE002,01-01-2023,31-12-2024
+CLI027,,"Advanced Solution SA","Strada Manzoni 78",Dubai,AE,72391,OEM,LE003,01-01-2021,31-12-2022
+CLI028,IE35678865638,"Advanced Tech Lda","Strada Manzoni 250",Dublin,IE,65752,Small Business,LE002,01-01-2023,31-12-2024
+CLI029,FR22837375701,"Net Power AG","Strada dell'Innovazione 236",Paris,FR,79583,Distributor,LE003,01-01-2023,31-12-2024
+CLI030,IT74278625204,"Auto Green Sas","Largo della Meccanica 213",Treviso,IT,31100,Distributor,LE003,01-01-2024,31-12-2024
+CLI031,IT22681400594,"Green Connect Sas","Viale Artigianale 132",Vicenza,IT,36100,Small Business,LE001,01-01-2021,31-12-2024
+CLI032,IE38927479036,"Venture Group AS","Via Commerciale 250",Dublin,IE,35736,OEM,LE003,01-01-2021,31-12-2024
+CLI033,TW49995687420,"Supply Inno AG","Corso Cavour 15",Taipei,TW,52695,Small Business,LE001,01-01-2021,31-12-2024
+CLI034,FR64372307081,"Supply Force LLC","Viale Italia 50",Paris,FR,91348,Mid Market,LE003,01-01-2023,31-12-2024
+CLI035,IT76200368033,"Advanced Base Srl","Corso Commerciale 61",Venezia,IT,30100,Public Sector,LE003,01-01-2023,31-12-2024
+CLI036,IT24143201909,"Flex Metal Srl","Viale Commerciale 39",Piacenza,IT,29100,Mid Market,LE002,01-01-2021,31-12-2024
+CLI037,GR68632701898,"Precision Beta Lda","Viale delle Officine 122",Athens,GR,19249,OEM,LE003,01-01-2021,31-12-2022
+CLI038,IT42340711441,"Fast Group SpA","Largo Verdi 234",Brescia,IT,25100,Startup,LE001,01-01-2021,31-12-2024
+CLI039,,"Power Smart SA","Corso della Tecnologia 234",Beijing,CN,81555,Distributor,LE003,01-01-2021,31-12-2022
+CLI040,CA74657937335,"Venture Supply SAS","Strada Italia 166",Toronto,CA,11812,Startup,LE003,01-01-2021,31-12-2022
+CLI041,IT36943721314,"Pro Global SpA","Via Roma 117",Padova,IT,35100,Large Enterprise,LE001,01-01-2021,31-12-2024
+CLI042,IT85440046637,"Solid Inno Sas","Via Cavour 110",Firenze,IT,50100,Small Business,LE003,01-01-2024,31-12-2024
+CLI043,US73714588499,"Trade Logistic Ltd","Piazza Manzoni 163",Chicago,US,47295,Startup,LE002,01-01-2021,31-12-2024
+CLI044,PT53820048739,"Hub Distrib GmbH","Strada Artigianale 121",Lisbon,PT,48420,OEM,LE001,01-01-2023,31-12-2024
+CLI045,IT55409721498,"Digital Allied SpA","Via Italia 162",Firenze,IT,50100,Public Sector,LE003,01-01-2023,31-12-2024
+CLI046,NL29135768038,"Solid Venture Lda","Viale del Lavoro 56",Amsterdam,NL,55793,Small Business,LE002,01-01-2021,31-12-2022
+CLI047,HU72140787377,"Allied Tech Corp","Corso Europa 135",Budapest,HU,14203,Distributor,LE001,01-01-2024,31-12-2024
+CLI048,IT61192008143,"Smart Metal Sas","Via Cavour 211",Reggio Emilia,IT,42100,Mid Market,LE001,01-01-2021,31-12-2022
+CLI049,DE38859184148,"Hub Solution AS","Largo del Lavoro 124",Berlin,DE,56581,Large Enterprise,LE003,01-01-2021,31-12-2022
+CLI050,US52588645951,"Alpha Distrib PLC","Strada della Produzione 38",New York,US,44157,Large Enterprise,LE003,01-01-2021,31-12-2024
+CLI051,SG67209614016,"Fast Pro SA","Viale Manzoni 92",Singapore,SG,93947,OEM,LE002,01-01-2023,31-12-2024
+CLI052,IT29036420567,"Logistic Digital Sas","Via Dante 94",Roma,IT,00100,Startup,LE001,01-01-2023,31-12-2024
+CLI053,IT98449034408,"Precision Fast SpA","Largo Marconi 60",Parma,IT,43100,Startup,LE003,01-01-2021,31-12-2022
+CLI054,IT29816760371,"Force Smart SpA","Largo Europa 137",Milano,IT,20100,Mid Market,LE002,01-01-2021,31-12-2024
+CLI055,FR27182862089,"Alpha Prime AG","Via dell'Industria 4",Paris,FR,51542,Mid Market,LE001,01-01-2021,31-12-2024
+CLI056,TH17368395565,"Smart Link PLC","Strada Logistica 41",Bangkok,TH,20652,Small Business,LE001,01-01-2021,31-12-2024
+CLI057,AT37546060676,"Tech Distrib Corp","Viale dell'Industria 209",Vienna,AT,91500,OEM,LE002,01-01-2021,31-12-2024
+CLI058,DK42257143343,"Euro Solution AS","Corso Edison 66",Copenhagen,DK,82933,Small Business,LE003,01-01-2023,31-12-2024
+CLI059,AT21589215603,"Alpha System LLC","Via Marconi 51",Vienna,AT,78153,OEM,LE003,01-01-2021,31-12-2024
+CLI060,AE76025130831,"Capital Plast PLC","Piazza Commerciale 44",Dubai,AE,98125,Small Business,LE001,01-01-2021,31-12-2024
+CLI061,,"Link Solution AS","Corso Logistica 36",Bangkok,TH,47019,Small Business,LE003,01-01-2021,31-12-2022
+CLI062,IT77476716974,"Force Digital Srl","Piazza Garibaldi 197",Udine,IT,33100,Distributor,LE001,01-01-2021,31-12-2024
+CLI063,IT16652617914,"Base Smart Sas","Viale Europa 136",Udine,IT,33100,OEM,LE001,01-01-2021,31-12-2024
+CLI064,TR56409684642,"Force Global Ltd","Viale Roma 171",Istanbul,TR,36886,Startup,LE003,01-01-2021,31-12-2022
+CLI065,SG41213374445,"Green Distrib BV","Viale Roma 78",Singapore,SG,51566,OEM,LE003,01-01-2021,31-12-2024
+CLI066,GR88208487478,"Dynamic Link Inc","Corso dell'Innovazione 9",Athens,GR,28137,Small Business,LE001,01-01-2021,31-12-2024
+CLI067,TW12978012853,"Tech Green Lda","Viale dell'Industria 151",Taipei,TW,58150,Startup,LE003,01-01-2021,31-12-2024
+CLI068,IT21920807317,"Link Precision Sas","Piazza Marconi 121",Bergamo,IT,24100,Distributor,LE001,01-01-2021,31-12-2024
+CLI069,TH51286066430,"Prime Venture AG","Piazza della Produzione 61",Bangkok,TH,28253,Startup,LE002,01-01-2021,31-12-2024
+CLI070,BG33109802739,"Connect Distrib AS","Largo Edison 40",Sofia,BG,52357,Distributor,LE001,01-01-2023,31-12-2024
+CLI071,US66356642757,"Solution Solution Lda","Largo Dante 151",Houston,US,63603,Startup,LE002,01-01-2021,31-12-2024
+CLI072,IN31337641342,"Plast Connect BV","Piazza della Meccanica 10",Mumbai,IN,26337,Distributor,LE001,01-01-2023,31-12-2024
+CLI073,IT15440867001,"Supply Core SpA","Viale Dante 118",Verona,IT,37100,Startup,LE003,01-01-2023,31-12-2024
+CLI074,IT67635734760,"Prime Flex Srl","Piazza della Produzione 249",Padova,IT,35100,Distributor,LE002,01-01-2021,31-12-2022
+CLI075,ES73082548869,"Alpha Beta Inc","Strada Marconi 218",Madrid,ES,22759,Large Enterprise,LE001,01-01-2021,31-12-2022
+CLI076,IT30308778884,"Connect Energy SpA","Piazza Marconi 52",Verona,IT,37100,OEM,LE001,01-01-2021,31-12-2024
+CLI077,EG22564307167,"Energy Inno PLC","Largo Roma 24",Cairo,EG,50087,Large Enterprise,LE003,01-01-2024,31-12-2024
+CLI078,EG45890043449,"Hub Auto AS","Strada dell'Industria 4",Cairo,EG,77102,Public Sector,LE003,01-01-2021,31-12-2024
+CLI079,IT61063948923,"Precision United SpA","Corso Cavour 178",Padova,IT,35100,Startup,LE001,01-01-2021,31-12-2024
+CLI080,CH65939532307,"Hub Green SAS","Viale dell'Industria 95",Zurich,CH,70891,Distributor,LE001,01-01-2021,31-12-2024
+CLI081,IT87506652201,"Advanced Beta Srl","Strada Roma 21",Padova,IT,35100,Public Sector,LE001,01-01-2021,31-12-2024
+CLI082,IT47251739422,"Allied Manuf Sas","Corso della Produzione 24",Bologna,IT,40100,Distributor,LE003,01-01-2021,31-12-2024
+CLI083,IT26188367508,"Inno Capital Srl","Viale Roma 92",Ancona,IT,60100,Public Sector,LE002,01-01-2021,31-12-2024
+CLI084,DE81339047518,"Green Precision Inc","Largo dell'Innovazione 175",Berlin,DE,67829,Distributor,LE002,01-01-2021,31-12-2022
+CLI085,IN76295206899,"Precision Flex GmbH","Via della Meccanica 113",Mumbai,IN,20506,Large Enterprise,LE003,01-01-2021,31-12-2022
+CLI086,IT76062176056,"Advanced United Sas","Largo Edison 218",Genova,IT,16100,Public Sector,LE001,01-01-2023,31-12-2024
+CLI087,IT24145747619,"International United SpA","Corso della Meccanica 230",Bergamo,IT,24100,Small Business,LE002,01-01-2023,31-12-2024
+CLI088,IT16039935598,"Hub Power Srl","Piazza Manzoni 5",Reggio Emilia,IT,42100,Small Business,LE001,01-01-2021,31-12-2024
+CLI089,SE27883770600,"Pro System SA","Strada delle Officine 6",Stockholm,SE,34527,Mid Market,LE003,01-01-2021,31-12-2024
+CLI090,FR34133382943,"Beta Net Corp","Viale della Meccanica 147",Lyon,FR,63774,Large Enterprise,LE001,01-01-2021,31-12-2024
+CLI091,FI83078037973,"Flex Beta Corp","Viale Logistica 112",Helsinki,FI,10601,Mid Market,LE002,01-01-2021,31-12-2024
+CLI092,IT84390209388,"Venture Logistic SpA","Strada Marconi 36",Milano,IT,20100,Mid Market,LE003,01-01-2023,31-12-2024
+CLI093,AU75462444954,"Flex Global AB","Strada Cavour 197",Sydney,AU,71401,Startup,LE001,01-01-2021,31-12-2024
+CLI094,AE26603543582,"Distrib Solution PLC","Strada Commerciale 20",Dubai,AE,17213,Mid Market,LE003,01-01-2021,31-12-2024
+CLI095,KR64250743459,"System Alpha Ltd","Corso Roma 151",Seoul,KR,95347,Public Sector,LE001,01-01-2021,31-12-2024
+CLI096,CA35628581385,"Logistic Precision Lda","Viale Marconi 165",Toronto,CA,36529,Public Sector,LE003,01-01-2021,31-12-2022
+CLI097,IT90011644209,"Fast Net Sas","Strada Roma 172",Torino,IT,10100,Public Sector,LE001,01-01-2024,31-12-2024
+CLI098,GR90549748940,"Base Solution AB","Corso dell'Innovazione 180",Athens,GR,32888,Large Enterprise,LE002,01-01-2023,31-12-2024
+CLI099,IT72606408887,"Net Dynamic Srl","Largo Artigianale 157",Vicenza,IT,36100,OEM,LE002,01-01-2021,31-12-2024
+CLI100,US25340227034,"Fast Smart Corp","Piazza Marconi 184",Houston,US,79780,Large Enterprise,LE001,01-01-2021,31-12-2024

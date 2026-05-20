@@ -1,0 +1,121 @@
+table Clienti
+	lineageTag: 8f352c4a-01d3-41c1-ac4d-088f04ac96d2
+
+	column cod_cliente
+		dataType: string
+		lineageTag: 5fbe3e61-9dfd-4e1f-8ba1-2e3801138944
+		summarizeBy: none
+		sourceColumn: cod_cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column partita_iva
+		dataType: string
+		lineageTag: 1535b73e-1ef2-4cf1-8e9e-c0f0afe7a718
+		summarizeBy: none
+		sourceColumn: partita_iva
+
+		annotation SummarizationSetBy = Automatic
+
+	column ragione_sociale
+		dataType: string
+		lineageTag: 3c4161bb-0c86-46dc-a7cf-dbfa936d3375
+		summarizeBy: none
+		sourceColumn: ragione_sociale
+
+		annotation SummarizationSetBy = Automatic
+
+	column via
+		dataType: string
+		lineageTag: f5279fe2-8c52-46e5-b75a-7defcb3458fc
+		summarizeBy: none
+		sourceColumn: via
+
+		annotation SummarizationSetBy = Automatic
+
+	column comune
+		dataType: string
+		lineageTag: 1d0ac3f0-1bcd-4610-9ffd-d56f04ed78e6
+		summarizeBy: none
+		sourceColumn: comune
+
+		annotation SummarizationSetBy = Automatic
+
+	column nazione
+		dataType: string
+		lineageTag: 010f0474-66e3-45d8-9bcd-32f55cac3f48
+		summarizeBy: none
+		sourceColumn: nazione
+
+		annotation SummarizationSetBy = Automatic
+
+	column cap
+		dataType: int64
+		formatString: 0
+		lineageTag: 86a3babb-e9c8-4d2b-8692-760851c466a2
+		summarizeBy: none
+		sourceColumn: cap
+
+		annotation SummarizationSetBy = Automatic
+
+	column segmento
+		dataType: string
+		lineageTag: 2896c5a6-d902-46db-8418-d667beb613f1
+		summarizeBy: none
+		sourceColumn: segmento
+
+		annotation SummarizationSetBy = Automatic
+
+	column legal_entity
+		dataType: string
+		lineageTag: 76400984-f207-42dd-9a49-ca8833436ec4
+		summarizeBy: none
+		sourceColumn: legal_entity
+
+		annotation SummarizationSetBy = Automatic
+
+	column attivo_dal
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e43bb0cf-5023-4040-ab75-43121129508b
+		summarizeBy: none
+		sourceColumn: attivo_dal
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column attivo_al
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 4fc4d3ca-b742-496b-a3b0-f6825fb6d9fc
+		summarizeBy: none
+		sourceColumn: attivo_al
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Tipo cliente'
+		dataType: string
+		lineageTag: 2542b761-7579-469a-ba9b-f666db052b1f
+		summarizeBy: none
+		sourceColumn: Tipo cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Clienti = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(REPO_ROOT & "\data\erp_gamma_anag_clienti.csv"),[Delimiter=",", Columns=11, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"cod_cliente", type text}, {"partita_iva", type text}, {"ragione_sociale", type text}, {"via", type text}, {"comune", type text}, {"nazione", type text}, {"cap", Int64.Type}, {"segmento", type text}, {"legal_entity", type text}, {"attivo_dal", type date}, {"attivo_al", type date}}),
+				    #"Aggiunta colonna personalizzata" = Table.AddColumn(#"Changed Type", "Tipo cliente", each if [partita_iva] = null or [partita_iva] = "" then "Senza Partita IVA" else "Con Partita IVA")
+				in
+				    #"Aggiunta colonna personalizzata"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

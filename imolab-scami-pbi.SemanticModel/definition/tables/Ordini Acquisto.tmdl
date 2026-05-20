@@ -1,0 +1,123 @@
+table 'Ordini Acquisto'
+	lineageTag: c64211ae-f9c1-4a59-9210-8f47b46a7dda
+
+	column cod_articolo
+		dataType: string
+		lineageTag: fc16a471-c83e-417e-83bf-ed654575f3a7
+		summarizeBy: none
+		sourceColumn: cod_articolo
+
+		annotation SummarizationSetBy = Automatic
+
+	column cod_magazzino
+		dataType: string
+		lineageTag: 8cd0bd4a-d080-451a-a4a5-2c9b3a57cc08
+		summarizeBy: none
+		sourceColumn: cod_magazzino
+
+		annotation SummarizationSetBy = Automatic
+
+	column cod_fornitore
+		dataType: string
+		lineageTag: 03322082-9178-487f-80bb-3497611fe5ec
+		summarizeBy: none
+		sourceColumn: cod_fornitore
+
+		annotation SummarizationSetBy = Automatic
+
+	column legal_entity
+		dataType: string
+		lineageTag: 09be657f-680c-4351-af52-c68cb9873a86
+		summarizeBy: none
+		sourceColumn: legal_entity
+
+		annotation SummarizationSetBy = Automatic
+
+	column num_ordine
+		dataType: string
+		lineageTag: 5f6e72ea-02f4-4262-94f1-1d25e4f18348
+		summarizeBy: none
+		sourceColumn: num_ordine
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_ordine
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 00822e3b-d999-4354-a041-2f5a134a0b63
+		summarizeBy: none
+		sourceColumn: data_ordine
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column data_arrivo
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7eb1ec73-717d-4374-a7c7-564a29852a4a
+		summarizeBy: none
+		sourceColumn: data_arrivo
+
+		variation Variation
+			isDefault
+			relationship: 19667d2b-902a-4bcf-bd7f-15ff166779b9
+			defaultHierarchy: LocalDateTable_1c2971ad-0edc-4bf1-afbc-91dd39f3a3be.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column qta
+		dataType: int64
+		formatString: 0
+		lineageTag: 19853314-897b-4594-80b4-3a04b41410f4
+		summarizeBy: sum
+		sourceColumn: qta
+
+		annotation SummarizationSetBy = Automatic
+
+	column prezzo_unitario
+		dataType: decimal
+		lineageTag: 0571cec7-ebd8-4b01-8523-ae3662f3d974
+		summarizeBy: sum
+		sourceColumn: prezzo_unitario
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column valore_totale
+		dataType: decimal
+		lineageTag: a8f89bf4-b46d-404b-b763-38f8d64d21e1
+		summarizeBy: sum
+		sourceColumn: valore_totale
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lead_time_gg
+		dataType: int64
+		formatString: 0
+		lineageTag: a9a6d007-2561-4ce2-9d1a-e433c147cf48
+		summarizeBy: sum
+		sourceColumn: lead_time_gg
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Ordini Acquisto' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(REPO_ROOT & "\data\erp_gamma_ordini_acquisto.csv"),[Delimiter=",", Columns=11, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"cod_articolo", type text}, {"cod_magazzino", type text}, {"cod_fornitore", type text}, {"legal_entity", type text}, {"num_ordine", type text}, {"data_ordine", type date}, {"data_arrivo", type date}, {"qta", Int64.Type}, {"lead_time_gg", Int64.Type}}),
+				    #"Fix Decimal Separator" = Table.TransformColumnTypes(#"Changed Type",{{"prezzo_unitario", Currency.Type}, {"valore_totale", Currency.Type}}, "en-US")
+				in
+				    #"Fix Decimal Separator"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

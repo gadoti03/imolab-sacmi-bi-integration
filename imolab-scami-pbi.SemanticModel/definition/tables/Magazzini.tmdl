@@ -1,0 +1,74 @@
+table Magazzini
+	lineageTag: 2b07fed5-b05f-445b-875a-0024d6e0ce9a
+
+	column cod_magazzino
+		dataType: string
+		lineageTag: 4110d466-73d9-47a4-97ec-e7cc0d8d2d2b
+		summarizeBy: none
+		sourceColumn: cod_magazzino
+
+		annotation SummarizationSetBy = Automatic
+
+	column legal_entity
+		dataType: string
+		lineageTag: b65717d1-8142-4878-953b-44cea1dcbe93
+		summarizeBy: none
+		sourceColumn: legal_entity
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_plant
+		dataType: string
+		lineageTag: d4bc3fb1-250f-4189-8562-8ee5ba304ee7
+		summarizeBy: none
+		sourceColumn: tipo_plant
+
+		annotation SummarizationSetBy = Automatic
+
+	column via
+		dataType: string
+		lineageTag: 6d5af6ec-4c7e-4839-a35c-d93e26157992
+		summarizeBy: none
+		sourceColumn: via
+
+		annotation SummarizationSetBy = Automatic
+
+	column comune
+		dataType: string
+		lineageTag: b56e5c10-ad4f-48e8-b249-fb36299ee8b5
+		summarizeBy: none
+		sourceColumn: comune
+
+		annotation SummarizationSetBy = Automatic
+
+	column nazione
+		dataType: string
+		lineageTag: 009fba9d-6f65-49f4-8893-37656b4a6250
+		summarizeBy: none
+		sourceColumn: nazione
+
+		annotation SummarizationSetBy = Automatic
+
+	column cap
+		dataType: int64
+		formatString: 0
+		lineageTag: 635aae3e-a912-4578-97ab-c284e513d164
+		summarizeBy: sum
+		sourceColumn: cap
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Magazzini = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(REPO_ROOT & "\data\erp_gamma_magazzini.csv"),[Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"cod_magazzino", type text}, {"legal_entity", type text}, {"tipo_plant", type text}, {"via", type text}, {"comune", type text}, {"nazione", type text}, {"cap", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

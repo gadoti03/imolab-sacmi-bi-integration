@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "imolab-scami-pbi"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "b45bc2a7-2649-4940-a52d-4435a9742281"
+  }
+}

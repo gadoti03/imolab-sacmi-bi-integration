@@ -1,0 +1,21 @@
+cod_magazzino,legal_entity,tipo_plant,via,comune,nazione,cap
+MAG001,LE001,Produzione,"Viale Verdi 72",Brescia,IT,25100
+MAG002,LE001,Distribuzione,"Viale dell'Industria 139",Bologna,IT,40100
+MAG003,LE001,Assemblaggio,"Largo Europa 212",Bergamo,IT,24100
+MAG004,LE001,R&D,"Piazza Dante 143",Parma,IT,43100
+MAG005,LE001,R&D,"Piazza della Produzione 230",Vicenza,IT,36100
+MAG006,LE001,Assemblaggio,"Piazza della Produzione 134",Roma,IT,00100
+MAG007,LE001,Logistica,"Largo della Tecnologia 224",Udine,IT,33100
+MAG008,LE001,Produzione,"Viale del Lavoro 87",Napoli,IT,80100
+MAG009,LE002,Distribuzione,"Corso Commerciale 243",München,DE,39690
+MAG010,LE002,Distribuzione,"Strada dell'Industria 248",Frankfurt,DE,94731
+MAG011,LE002,Logistica,"Strada Italia 175",Frankfurt,DE,86626
+MAG012,LE002,Distribuzione,"Via Italia 45",Frankfurt,DE,91323
+MAG013,LE002,Distribuzione,"Corso Garibaldi 24",Hamburg,DE,11647
+MAG014,LE002,Assemblaggio,"Largo Logistica 50",Stuttgart,DE,33913
+MAG015,LE002,Logistica,"Largo della Tecnologia 125",Frankfurt,DE,47871
+MAG016,LE003,Logistica,"Piazza Manzoni 242",Detroit,US,91025
+MAG017,LE003,Assemblaggio,"Via della Produzione 178",Cleveland,US,83665
+MAG018,LE003,Assemblaggio,"Strada Dante 237",Detroit,US,30575
+MAG019,LE003,Produzione,"Strada Logistica 151",Chicago,US,99925
+MAG020,LE003,Assemblaggio,"Corso della Tecnologia 194",New York,US,34947

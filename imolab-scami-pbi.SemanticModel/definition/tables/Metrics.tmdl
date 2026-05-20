@@ -1,0 +1,306 @@
+table Metrics
+	lineageTag: 365b7176-c774-4d97-9259-d740dc62e158
+
+	measure 'Sales Velocity' =
+			
+			DIVIDE(
+			    SUM('Ordini Vendita'[valore_totale]),
+			    COUNTROWS(VALUES(Data[Data]))
+			)
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 2a53e171-191c-4155-8a17-7ac9cc127e0a
+
+	measure Sales = SUM('Ordini Vendita'[valore_totale])
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 33e2ea3b-2087-4485-bd9f-3800d75d4b4f
+
+	measure 'Contribution Margin' =
+			
+			SUMX(
+			    'Ordini Vendita',
+			    'Ordini Vendita'[margine_pct] * 'Ordini Vendita'[valore_totale] / 100.0
+			)
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 3c509260-8db9-4630-afbf-31410989ddb1
+
+	measure 'Contribution Margin Ratio' =
+			
+			DIVIDE(
+			    SUMX(
+			        'Ordini Vendita',
+			        'Ordini Vendita'[margine_pct] * 'Ordini Vendita'[valore_totale] / 100.0
+			    ),
+			    SUM('Ordini Vendita'[valore_totale])
+			)
+		lineageTag: 0c67a286-a0ac-4fb3-9a58-750322796a9f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Mean Price Realization' = DIVIDE([Price Realization], SUM('Ordini Vendita'[qta]))
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: da7b2b80-94b6-4d80-a833-9f26ed3cc93d
+
+	measure Spend = SUM('Ordini Acquisto'[valore_totale])
+		lineageTag: 4b5258d3-ce7c-4294-bd0b-8b1d594f5ae8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Top N Supplier Concentration' =
+			
+			DIVIDE(
+			    SUMX(
+			        TOPN(
+			            'Top N'[Valore Top N],
+			            VALUES('Ordini Acquisto'[cod_fornitore]),
+			            CALCULATE(SUM('Ordini Acquisto'[valore_totale]))
+			        ),
+			        CALCULATE(SUM('Ordini Acquisto'[valore_totale]))
+			    ),
+			    SUM('Ordini Acquisto'[valore_totale])
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: e989ab0d-5763-4dae-a633-9fd50b0dad66
+
+	measure 'Price Realization' =
+			SUMX(
+			        'Ordini Vendita',
+			        ('Ordini Vendita'[prezzo_unitario] - RELATED('Articoli'[prezzo_listino])) * 'Ordini Vendita'[qta]
+			    )
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 25789fa8-12be-4c49-b766-586ac5c91be3
+
+	measure 'Price Realization Ratio' =
+			
+			DIVIDE(
+			    [Price Realization],
+			    SUMX(
+			        'Ordini Vendita',
+			        RELATED(Articoli[prezzo_listino]) * 'Ordini Vendita'[qta]
+			    )
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8e26222b-585d-4fad-9ff8-8008d07ececd
+
+	measure 'Purchase Price Variation' =
+			
+			SUMX(
+			    'Ordini Acquisto',
+			    ('Ordini Acquisto'[prezzo_unitario] - RELATED(Articoli[prezzo_costo])) * 'Ordini Acquisto'[qta]
+			)
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 1a5a3a5e-e8e9-40e1-a56e-e93cd75986ce
+
+	measure 'Purchase Price Variation Ratio' =
+			
+			DIVIDE(
+			    [Purchase Price Variation],
+			    SUMX(
+			        'Ordini Acquisto',
+			        RELATED(Articoli[prezzo_costo]) * 'Ordini Acquisto'[qta]
+			    )
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 6a94d602-f9a3-4228-97f9-67af2a3ec691
+
+	measure MonthNumber
+		lineageTag: 0da21987-6d38-4b5e-9918-17ebc05a8bc0
+
+	measure 'Churn Rate' = ```
+			
+			VAR SommaGiorni = SUMX(
+			    'Clienti', 
+			    DATEDIFF('Clienti'[attivo_dal], [attivo_al], DAY)
+			)
+			VAR NumeroClienti = COUNTROWS('Clienti')
+			
+			RETURN 
+			DIVIDE(SommaGiorni, NumeroClienti, 0)
+			```
+		formatString: #,0
+		lineageTag: 109d950c-02e0-44aa-899e-d027f9aad597
+
+	measure 'Average Lead Time' =
+			
+			AVERAGE('Ordini Acquisto'[lead_time_gg])
+		lineageTag: ff314a88-36e8-47e1-90d8-ee1e766da894
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Top N Revenue Concentration' =
+			DIVIDE(
+			    SUMX(TOPN('Top N'[Valore Top N], Clienti, [Sales]), [Sales]),
+			    [Sales]
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 42d54521-3524-4b8c-b1bc-6058244643e9
+
+	measure 'Top N Customer By Sales' =
+			
+			VAR CustomerRankBySales = RANKX(ALLSELECTED(Clienti), [Sales], ,DESC, DENSE)
+			RETURN IF(CustomerRankBySales <= 'Top N'[Valore Top N], [Sales], BLANK())
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 6ccf5f65-ca6f-4313-8eb3-ca8e3c59e47b
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	measure 'Order Fulfillment Cycle Time' =
+			
+			AVERAGEX(
+			    'Ordini Vendita',
+			    DATEDIFF('Ordini Vendita'[data_ordine], 'Ordini Vendita'[data_consegna], DAY)
+			)
+		lineageTag: ed551b97-a9d2-405e-892d-b61a113aa7a4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Top N Supplier By Spend' =
+			
+			VAR SupplierRankBySpend = RANKX(ALLSELECTED(Fornitori), [Spend], ,DESC, DENSE)
+			RETURN IF(SupplierRankBySpend <= 'Top N'[Valore Top N], [Spend], BLANK())
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 7671de51-8d0f-4b06-a800-f0c065fcefec
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Backorder Ratio' = DIVIDE([Backorder Orders], COUNTROWS('Ordini Vendita'))
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 63cd0ed2-364e-4022-934e-91794973fd1b
+
+	measure 'Backorder Orders' = ```
+			
+			    SUMX(
+			        'Ordini Vendita',
+			        VAR OrderQty = 'Ordini Vendita'[qta]
+			        VAR StockQty =
+			            CALCULATE(
+			                SUM(Giacenze[quantity]),
+			                FILTER(
+			                    Giacenze,
+			                    Giacenze[item_code] = 'Ordini Vendita'[cod_articolo] &&
+			                    Giacenze[date] = 'Ordini Vendita'[data_ordine]
+			                )
+			            )
+			        RETURN
+			            IF(StockQty < OrderQty, 1, 0)
+			    )
+			```
+		formatString: 0
+		lineageTag: 403dea15-7b5b-4158-92e8-eae38054dd7c
+
+	measure 'Average Total Inventory' =
+			
+			AVERAGEX(
+			    VALUES(Giacenze[date]),
+			    CALCULATE(SUM(Giacenze[quantity]))
+			)
+		lineageTag: 30949dca-c091-4d75-a020-180acb0f8257
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average DIO' = ```
+			
+			AVERAGEX(
+			   VALUES('Giacenze'[item_code]),
+			    [Days Inventory Outstanding]
+			) 
+			```
+		lineageTag: f53ac142-0f1d-4d29-853f-d859aae69755
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Days Inventory Outstanding' = ```
+			DIVIDE([Giacenza Media Check], [Vendite Medie Giornaliere], 0)
+			
+			```
+		lineageTag: 9c1de060-7781-4c44-a5a5-7b29d3c2f790
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Vendite Medie Giornaliere' =
+			
+			
+			VAR Totale_Venduto = SUM('Ordini Vendita'[qta])
+			
+			VAR Numero_Giorni = DISTINCTCOUNT('Giacenze'[date])
+			
+			RETURN
+			
+			DIVIDE(Totale_Venduto, Numero_Giorni, 0)
+		lineageTag: 82fc3c7a-f65c-4936-aaf5-9442307f9e09
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Giacenza Media Check' =
+			
+			AVERAGEX(
+			    VALUES('Data'[Data]),
+			    CALCULATE(SUM('Giacenze'[quantity]))
+			)
+		lineageTag: 9e4cf060-a03c-4f82-a84b-352ab52125ce
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Median DIO' =
+			
+			MEDIANX(
+			   VALUES('Giacenze'[item_code]),
+			    [Days Inventory Outstanding]
+			)
+		lineageTag: 7d39f33e-133e-49a5-9a89-d382a30704de
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Inventory Turnover' =
+			
+			VAR Vendite_Totali = SUM('Ordini Vendita'[qta])
+			VAR Giacenza_Media_PZ = [Average Total Inventory]
+			RETURN
+			DIVIDE(Vendite_Totali, Giacenza_Media_PZ, 0)
+		lineageTag: 53e11872-50d2-4dc5-b844-7a84e3ca78f3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Orders per Customer' = COUNT('Ordini Vendita'[cod_cliente])
+		formatString: 0
+		lineageTag: 0709db9a-838c-4326-8f50-3742b1c000ee
+
+	measure 'Total Quantity' = SUM('Ordini Vendita'[qta])
+		formatString: 0
+		lineageTag: 6d0a7634-e1e1-4ebd-b9de-ec38c078cb5d
+
+	measure 'Product Rank' =
+			
+			RANKX(
+			    ALL(Articoli[cod_articolo]),
+			    [Total Quantity],
+			    ,
+			    DESC,
+			    DENSE
+			)
+		formatString: 0
+		lineageTag: bfc53ece-4acf-44e0-84e2-04cff844973b
+
+	measure 'Top N Products' =
+			
+			VAR ArticoliRank = RANKX(ALL(Articoli[cod_articolo]),[Total Quantity],,DESC,DENSE)
+			RETURN IF(ArticoliRank <= 'Top N'[Valore Top N], [Total Quantity], BLANK())
+		formatString: "£"#,0.###############;-"£"#,0.###############;"£"#,0.###############
+		lineageTag: 645ff14c-948e-47b9-a570-fbb0e2e27759
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-GB"}
+
+	column Value
+		formatString: 0
+		lineageTag: cb2e66ed-aa90-4407-802f-e4d06f929add
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = User
+
+	partition Metrics = calculated
+		mode: import
+		source = {1}
+
+	annotation PBI_Id = 0b1892dd8e514ebe88d1457f6c05ff1d
+

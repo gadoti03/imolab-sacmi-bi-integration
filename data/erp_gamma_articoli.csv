@@ -1,0 +1,1001 @@
+cod_articolo,descrizione,famiglia,sottofamiglia,um,peso_kg,prezzo_costo,prezzo_listino
+ART00001,"Acciaio Inox 919",Acciaio e Metalli,Acciaio Inox,KG,11.3,199.49,337.07
+ART00002,"Viti e Bulloni 135",Meccanica di Precisione,Viti e Bulloni,PZ,74.43,363.72,660.49
+ART00003,"Motori elettrici 456",Prodotti Finiti,Motori elettrici,PZ,96,5656.93,8718.74
+ART00004,"Valvole 480",Meccanica di Precisione,Valvole,PZ,50.04,596.3,1022.14
+ART00005,"PVC 179",Materie Plastiche,PVC,KG,85.32,27.66,35.46
+ART00006,"Solventi 615",Prodotti Chimici,Solventi,LT,96.28,97.91,136.87
+ART00007,"Titanio 959",Acciaio e Metalli,Titanio,KG,54.73,146.49,208.45
+ART00008,"Filtri 936",Sistemi Idraulici,Filtri,PZ,76.79,1265.66,1628.98
+ART00009,"Molle 618",Meccanica di Precisione,Molle,PZ,76.19,209.09,367.11
+ART00010,"Ingranaggi 568",Meccanica di Precisione,Ingranaggi,PZ,87.32,282.32,485.9
+ART00011,"Catalizzatori 716",Prodotti Chimici,Catalizzatori,LT,35.07,151.03,192.02
+ART00012,"Detergenti 207",Prodotti Chimici,Detergenti,LT,40.46,161.36,209.72
+ART00013,"Profili 452",Semilavorati Gomma,Profili,PZ,87.05,44.26,60.22
+ART00014,"Guaine 575",Semilavorati Gomma,Guaine,PZ,89.6,67.09,116.63
+ART00015,"Valvole idrauliche 842",Sistemi Idraulici,Valvole idrauliche,PZ,9.7,798.61,1450.08
+ART00016,"Filtri 900",Sistemi Idraulici,Filtri,PZ,9.25,269,441.7
+ART00017,"Teflon 261",Materie Plastiche,Teflon,KG,28.26,29.76,43.75
+ART00018,"Guaine 181",Semilavorati Gomma,Guaine,PZ,73.84,62.7,110.36
+ART00019,"Tubi gomma 459",Semilavorati Gomma,Tubi gomma,PZ,20.56,19.43,37.26
+ART00020,"Accumulatori 692",Sistemi Idraulici,Accumulatori,PZ,2.24,1999.86,2306.12
+ART00021,"Solventi 987",Prodotti Chimici,Solventi,LT,30.5,107.12,206.26
+ART00022,"Catalizzatori 752",Prodotti Chimici,Catalizzatori,LT,60.3,181.58,237.35
+ART00023,"Alberi 690",Meccanica di Precisione,Alberi,PZ,45.04,586.78,1059.03
+ART00024,"Viti e Bulloni 948",Meccanica di Precisione,Viti e Bulloni,PZ,38.34,233.54,338.97
+ART00025,"Condensatori 865",Componentistica Elettronica,Condensatori,PZ,14.12,537.56,823.2
+ART00026,"Condensatori 506",Componentistica Elettronica,Condensatori,PZ,46,461.73,781.49
+ART00027,"Contenitori metallo 378",Imballaggi Industriali,Contenitori metallo,PZ,18.45,19.4,24.33
+ART00028,"Pallet 323",Imballaggi Industriali,Pallet,PZ,91.58,3.87,7.32
+ART00029,"Alluminio 291",Acciaio e Metalli,Alluminio,KG,14.69,201.79,233.2
+ART00030,"Kevlar 631",Tessuti Tecnici,Kevlar,MQ,38.02,26.23,37.54
+ART00031,"Accumulatori 648",Sistemi Idraulici,Accumulatori,PZ,12.73,280.87,346.22
+ART00032,"Solventi 340",Prodotti Chimici,Solventi,LT,52.69,61.7,111.38
+ART00033,"Resine 215",Prodotti Chimici,Resine,LT,64.87,149.37,266.2
+ART00034,"Motori elettrici 880",Prodotti Finiti,Motori elettrici,PZ,93.25,2088.01,3085.43
+ART00035,"Guarnizioni 283",Meccanica di Precisione,Guarnizioni,PZ,71.4,257.57,344.6
+ART00036,"Tessuto ignifugo 454",Tessuti Tecnici,Tessuto ignifugo,MQ,96.79,169.87,255.94
+ART00037,"Connettori 365",Componentistica Elettronica,Connettori,PZ,32.47,790.21,1395.74
+ART00038,"Tubi flessibili 849",Sistemi Idraulici,Tubi flessibili,PZ,64.22,1675.06,2667.08
+ART00039,"Membrana PTFE 851",Tessuti Tecnici,Membrana PTFE,MQ,0.78,475.49,733.72
+ART00040,"Pompe 594",Sistemi Idraulici,Pompe,PZ,57.47,1736.89,2160.71
+ART00041,"Paraoli 911",Semilavorati Gomma,Paraoli,PZ,14.82,48.89,87.7
+ART00042,"Connettori 638",Componentistica Elettronica,Connettori,PZ,51.26,376.5,540.11
+ART00043,"Filtri 847",Sistemi Idraulici,Filtri,PZ,17.45,612.24,884.72
+ART00044,"Kevlar 393",Tessuti Tecnici,Kevlar,MQ,7.04,269.63,395.12
+ART00045,"Microcontrollori 345",Componentistica Elettronica,Microcontrollori,PZ,89.32,758.19,1056.42
+ART00046,"Nastri 887",Semilavorati Gomma,Nastri,PZ,60.93,26.56,34.16
+ART00047,"Motori elettrici 472",Prodotti Finiti,Motori elettrici,PZ,51.97,1409.34,1783.35
+ART00048,"Nylon 486",Materie Plastiche,Nylon,KG,43.08,14.91,27.86
+ART00049,"Solventi 410",Prodotti Chimici,Solventi,LT,20.28,97.42,141.33
+ART00050,"Tessuto ignifugo 403",Tessuti Tecnici,Tessuto ignifugo,MQ,70.61,105.82,164.1
+ART00051,"Trasformatori 848",Componentistica Elettronica,Trasformatori,PZ,8.83,603.26,726.59
+ART00052,"Guarnizioni 504",Meccanica di Precisione,Guarnizioni,PZ,81.17,132.57,235.73
+ART00053,"Guarnizioni 946",Meccanica di Precisione,Guarnizioni,PZ,22.03,491.1,824.03
+ART00054,"Cuscinetti 362",Meccanica di Precisione,Cuscinetti,PZ,99.48,354.63,667.56
+ART00055,"Cuscinetti 356",Meccanica di Precisione,Cuscinetti,PZ,82.64,251.45,427.19
+ART00056,"ABS 939",Materie Plastiche,ABS,KG,53.95,38.11,70.49
+ART00057,"Guaine 872",Semilavorati Gomma,Guaine,PZ,78.25,41.09,63.04
+ART00058,"Filtri 687",Sistemi Idraulici,Filtri,PZ,85.58,989.71,1625.36
+ART00059,"Rame 714",Acciaio e Metalli,Rame,KG,30.64,190.99,225.75
+ART00060,"Raccordi 795",Sistemi Idraulici,Raccordi,PZ,16.37,770.96,889.36
+ART00061,"Etichette 805",Imballaggi Industriali,Etichette,PZ,17.52,19.93,23.93
+ART00062,"O-Ring 324",Semilavorati Gomma,O-Ring,PZ,69.29,76.34,128.49
+ART00063,"Lubrificanti 275",Prodotti Chimici,Lubrificanti,LT,1.39,158.73,245.6
+ART00064,"Motori elettrici 919",Prodotti Finiti,Motori elettrici,PZ,57.23,7660.34,11768.4
+ART00065,"Motori elettrici 100",Prodotti Finiti,Motori elettrici,PZ,45.22,2318.53,4075.29
+ART00066,"O-Ring 478",Semilavorati Gomma,O-Ring,PZ,82.9,48.91,73.97
+ART00067,"Kevlar 668",Tessuti Tecnici,Kevlar,MQ,19.69,442.03,780.27
+ART00068,"PVC 413",Materie Plastiche,PVC,KG,16.96,21.56,30.38
+ART00069,"Non tessuto 928",Tessuti Tecnici,Non tessuto,MQ,31.54,332.76,388.01
+ART00070,"Kevlar 949",Tessuti Tecnici,Kevlar,MQ,46.58,403.91,477.74
+ART00071,"Pallet 663",Imballaggi Industriali,Pallet,PZ,27.86,7.78,13.64
+ART00072,"Compressori 529",Prodotti Finiti,Compressori,PZ,11.6,4566.75,8751.56
+ART00073,"Reggette 486",Imballaggi Industriali,Reggette,PZ,55.9,6.91,9.33
+ART00074,"PVC 336",Materie Plastiche,PVC,KG,70.47,32.13,63.02
+ART00075,"Riduttori 668",Prodotti Finiti,Riduttori,PZ,83.16,2437.19,2918.37
+ART00076,"Non tessuto 741",Tessuti Tecnici,Non tessuto,MQ,63.14,276.98,465.4
+ART00077,"Alberi 131",Meccanica di Precisione,Alberi,PZ,7.44,341.38,592.89
+ART00078,"Riduttori 132",Prodotti Finiti,Riduttori,PZ,63.14,4268.05,6519.15
+ART00079,"Etichette 763",Imballaggi Industriali,Etichette,PZ,11.49,29.82,54.61
+ART00080,"Acciaio al Carbonio 503",Acciaio e Metalli,Acciaio al Carbonio,KG,35.99,265.27,364.83
+ART00081,"Riduttori 855",Prodotti Finiti,Riduttori,PZ,41.96,7861.72,10551.37
+ART00082,"Fibra di carbonio 990",Tessuti Tecnici,Fibra di carbonio,MQ,46.17,179.81,278.04
+ART00083,"Cilindri 355",Sistemi Idraulici,Cilindri,PZ,17.4,1317.71,1663.43
+ART00084,"Tubi gomma 386",Semilavorati Gomma,Tubi gomma,PZ,79.76,55.36,109.6
+ART00085,"Cuscinetti 384",Meccanica di Precisione,Cuscinetti,PZ,94.92,82.87,146.53
+ART00086,"Catalizzatori 181",Prodotti Chimici,Catalizzatori,LT,75.09,100.14,127.59
+ART00087,"Accumulatori 374",Sistemi Idraulici,Accumulatori,PZ,50.25,110.59,144.37
+ART00088,"Profili 797",Semilavorati Gomma,Profili,PZ,78.32,57.08,103.07
+ART00089,"Fiberglass 910",Tessuti Tecnici,Fiberglass,MQ,50.83,26.78,46.8
+ART00090,"Etichette 125",Imballaggi Industriali,Etichette,PZ,66.52,12.7,23.35
+ART00091,"Profili 793",Semilavorati Gomma,Profili,PZ,26.69,67.84,130.14
+ART00092,"Tessuto ignifugo 977",Tessuti Tecnici,Tessuto ignifugo,MQ,5.03,251.72,417.13
+ART00093,"Paraoli 455",Semilavorati Gomma,Paraoli,PZ,68.78,41.87,81.34
+ART00094,"Casse in legno 109",Imballaggi Industriali,Casse in legno,PZ,31.59,27.41,45.23
+ART00095,"Valvole idrauliche 687",Sistemi Idraulici,Valvole idrauliche,PZ,9.38,991.81,1973.75
+ART00096,"ABS 985",Materie Plastiche,ABS,KG,84.28,32.19,63.3
+ART00097,"Raccordi 270",Sistemi Idraulici,Raccordi,PZ,64.36,1726.19,2244.01
+ART00098,"Nylon 882",Materie Plastiche,Nylon,KG,15.53,4.13,6.76
+ART00099,"Tessuto ignifugo 815",Tessuti Tecnici,Tessuto ignifugo,MQ,41.94,79.34,149.37
+ART00100,"Contenitori metallo 358",Imballaggi Industriali,Contenitori metallo,PZ,59.28,21.35,26.86
+ART00101,"O-Ring 355",Semilavorati Gomma,O-Ring,PZ,47.66,62.7,122.52
+ART00102,"Filtri 533",Sistemi Idraulici,Filtri,PZ,43.64,1835.67,2961.1
+ART00103,"Riduttori 638",Prodotti Finiti,Riduttori,PZ,40.17,925.91,1644.56
+ART00104,"Valvole idrauliche 655",Sistemi Idraulici,Valvole idrauliche,PZ,66.06,955.89,1808.69
+ART00105,"Film stretch 221",Imballaggi Industriali,Film stretch,PZ,17.67,20.42,29.35
+ART00106,"Filtri 550",Sistemi Idraulici,Filtri,PZ,73.37,330.83,453.92
+ART00107,"Solventi 567",Prodotti Chimici,Solventi,LT,39.5,120.29,212.45
+ART00108,"Scambiatori calore 181",Prodotti Finiti,Scambiatori calore,PZ,13.74,2194.04,4023.7
+ART00109,"Tessuto ignifugo 379",Tessuti Tecnici,Tessuto ignifugo,MQ,12.81,158.36,307.48
+ART00110,"Ghisa 461",Acciaio e Metalli,Ghisa,KG,52.79,155.97,219.72
+ART00111,"Adesivi 444",Prodotti Chimici,Adesivi,LT,98.7,133.29,155.33
+ART00112,"Profili 696",Semilavorati Gomma,Profili,PZ,71.09,56.06,75.86
+ART00113,"Valvole 956",Meccanica di Precisione,Valvole,PZ,17.82,380.11,678.24
+ART00114,"Adesivi 857",Prodotti Chimici,Adesivi,LT,85.17,59.44,93.31
+ART00115,"Tessuto ignifugo 550",Tessuti Tecnici,Tessuto ignifugo,MQ,59.86,289.46,363.97
+ART00116,"Resistenze 900",Componentistica Elettronica,Resistenze,PZ,59.25,134.19,228.22
+ART00117,"Quadri elettrici 153",Prodotti Finiti,Quadri elettrici,PZ,26.81,1378.23,1895.41
+ART00118,"Accumulatori 391",Sistemi Idraulici,Accumulatori,PZ,99.92,1538.47,2895.47
+ART00119,"Sensori 650",Componentistica Elettronica,Sensori,PZ,64.57,338.55,441.58
+ART00120,"Condensatori 100",Componentistica Elettronica,Condensatori,PZ,50.82,14.11,24.18
+ART00121,"Catalizzatori 619",Prodotti Chimici,Catalizzatori,LT,62.61,79.9,126.96
+ART00122,"Solventi 266",Prodotti Chimici,Solventi,LT,29.73,138.05,180.71
+ART00123,"Paraoli 664",Semilavorati Gomma,Paraoli,PZ,26.41,11.86,16.69
+ART00124,"Tubi gomma 364",Semilavorati Gomma,Tubi gomma,PZ,75.05,39.65,67.36
+ART00125,"Non tessuto 374",Tessuti Tecnici,Non tessuto,MQ,52.35,334.9,448.39
+ART00126,"Adesivi 901",Prodotti Chimici,Adesivi,LT,93.97,82.02,101.34
+ART00127,"Zinco 273",Acciaio e Metalli,Zinco,KG,59.66,210.45,246
+ART00128,"Cilindri 848",Sistemi Idraulici,Cilindri,PZ,29.45,986.35,1817.65
+ART00129,"Policarbonato 648",Materie Plastiche,Policarbonato,KG,59.31,19.08,22.04
+ART00130,"Viti e Bulloni 672",Meccanica di Precisione,Viti e Bulloni,PZ,88.32,172.27,306.79
+ART00131,"Etichette 155",Imballaggi Industriali,Etichette,PZ,64.24,13.41,24.3
+ART00132,"Accumulatori 512",Sistemi Idraulici,Accumulatori,PZ,97.49,486.08,949.04
+ART00133,"Contenitori metallo 959",Imballaggi Industriali,Contenitori metallo,PZ,70.97,21.81,37.42
+ART00134,"Catalizzatori 346",Prodotti Chimici,Catalizzatori,LT,80.69,197.12,392.1
+ART00135,"Fibra di carbonio 348",Tessuti Tecnici,Fibra di carbonio,MQ,66.92,362.51,561.45
+ART00136,"Quadri elettrici 211",Prodotti Finiti,Quadri elettrici,PZ,72.68,4771.28,7977.21
+ART00137,"Alluminio 321",Acciaio e Metalli,Alluminio,KG,43.4,246.91,389.78
+ART00138,"Resine 588",Prodotti Chimici,Resine,LT,13.37,101.26,136.57
+ART00139,"Polipropilene 253",Materie Plastiche,Polipropilene,KG,18.81,11.96,14.37
+ART00140,"Nastri 568",Semilavorati Gomma,Nastri,PZ,88.81,29.48,34.74
+ART00141,"Cuscinetti 982",Meccanica di Precisione,Cuscinetti,PZ,1.8,195.94,347.12
+ART00142,"Trasformatori 650",Componentistica Elettronica,Trasformatori,PZ,11.41,715.35,1279.97
+ART00143,"Cuscinetti 264",Meccanica di Precisione,Cuscinetti,PZ,49.05,85.02,117.47
+ART00144,"Geotessile 137",Tessuti Tecnici,Geotessile,MQ,56.48,115.91,174.53
+ART00145,"ABS 298",Materie Plastiche,ABS,KG,97.36,38.59,74.47
+ART00146,"Filtri 945",Sistemi Idraulici,Filtri,PZ,97.28,504.46,835.93
+ART00147,"Resistenze 523",Componentistica Elettronica,Resistenze,PZ,74.76,316.32,448.49
+ART00148,"Fiberglass 131",Tessuti Tecnici,Fiberglass,MQ,5.87,319.59,622.01
+ART00149,"Scatole cartone 426",Imballaggi Industriali,Scatole cartone,PZ,20.32,27.17,43.22
+ART00150,"Trasformatori 499",Componentistica Elettronica,Trasformatori,PZ,11.77,701.43,854.63
+ART00151,"Viti e Bulloni 417",Meccanica di Precisione,Viti e Bulloni,PZ,67.29,238,413.61
+ART00152,"Guaine 450",Semilavorati Gomma,Guaine,PZ,35.79,42.23,56.21
+ART00153,"Pallet 765",Imballaggi Industriali,Pallet,PZ,69.36,28.42,43.75
+ART00154,"Membrane 985",Semilavorati Gomma,Membrane,PZ,41.13,70.64,130.06
+ART00155,"Microcontrollori 600",Componentistica Elettronica,Microcontrollori,PZ,74.64,37.67,45.38
+ART00156,"Alberi 472",Meccanica di Precisione,Alberi,PZ,68.92,388,577.05
+ART00157,"Solventi 117",Prodotti Chimici,Solventi,LT,77.11,181.42,328.18
+ART00158,"Profili 237",Semilavorati Gomma,Profili,PZ,50.47,10.6,14.89
+ART00159,"PCB 347",Componentistica Elettronica,PCB,PZ,0.19,590.75,770.54
+ART00160,"Guaine 141",Semilavorati Gomma,Guaine,PZ,13.34,76.78,140.17
+ART00161,"Rame 480",Acciaio e Metalli,Rame,KG,92.07,133.63,191.39
+ART00162,"Pompe centrifughe 451",Prodotti Finiti,Pompe centrifughe,PZ,23.43,1231.67,1522.43
+ART00163,"Tubi flessibili 141",Sistemi Idraulici,Tubi flessibili,PZ,37.65,679.64,1283.67
+ART00164,"Pallet 425",Imballaggi Industriali,Pallet,PZ,30.32,20.76,24.99
+ART00165,"Teflon 776",Materie Plastiche,Teflon,KG,16.6,5.28,8.7
+ART00166,"Molle 458",Meccanica di Precisione,Molle,PZ,8.04,50.56,82.39
+ART00167,"Compressori 487",Prodotti Finiti,Compressori,PZ,62.3,4347.33,5301.23
+ART00168,"Valvole 462",Meccanica di Precisione,Valvole,PZ,8.34,120.99,238.19
+ART00169,"Cuscinetti 311",Meccanica di Precisione,Cuscinetti,PZ,1.36,298.79,451.64
+ART00170,"Profili 885",Semilavorati Gomma,Profili,PZ,68.89,3.91,4.84
+ART00171,"Ingranaggi 564",Meccanica di Precisione,Ingranaggi,PZ,78.41,409.58,477.55
+ART00172,"Raccordi 383",Sistemi Idraulici,Raccordi,PZ,43.34,1441.02,2490.62
+ART00173,"Catalizzatori 260",Prodotti Chimici,Catalizzatori,LT,95.81,17.98,21.62
+ART00174,"Contenitori metallo 599",Imballaggi Industriali,Contenitori metallo,PZ,45.56,16.44,19.57
+ART00175,"ABS 301",Materie Plastiche,ABS,KG,22.98,26.89,37.83
+ART00176,"Microcontrollori 821",Componentistica Elettronica,Microcontrollori,PZ,25.27,755.25,1321.19
+ART00177,"Lubrificanti 488",Prodotti Chimici,Lubrificanti,LT,55.09,166.85,332.64
+ART00178,"Membrane 621",Semilavorati Gomma,Membrane,PZ,17.18,62.59,75.5
+ART00179,"Titanio 492",Acciaio e Metalli,Titanio,KG,25.69,145.13,193.67
+ART00180,"Reggette 893",Imballaggi Industriali,Reggette,PZ,30.85,9.42,13.04
+ART00181,"Polietilene 703",Materie Plastiche,Polietilene,KG,3.1,24.93,29.13
+ART00182,"Acciaio al Carbonio 237",Acciaio e Metalli,Acciaio al Carbonio,KG,73.43,188.06,236.58
+ART00183,"Polipropilene 933",Materie Plastiche,Polipropilene,KG,25.12,39.14,45.44
+ART00184,"Detergenti 975",Prodotti Chimici,Detergenti,LT,22.6,24.9,36.76
+ART00185,"Viti e Bulloni 539",Meccanica di Precisione,Viti e Bulloni,PZ,51.84,241.34,348.04
+ART00186,"Riduttori 577",Prodotti Finiti,Riduttori,PZ,91.63,6845.59,8123.46
+ART00187,"Rame 199",Acciaio e Metalli,Rame,KG,41.19,209.36,288.87
+ART00188,"Compressori 345",Prodotti Finiti,Compressori,PZ,54.1,4143.71,5979.65
+ART00189,"Geotessile 365",Tessuti Tecnici,Geotessile,MQ,76.96,158.8,275.53
+ART00190,"Compressori 381",Prodotti Finiti,Compressori,PZ,20.14,673.68,1101.05
+ART00191,"Connettori 648",Componentistica Elettronica,Connettori,PZ,3.89,631.84,903.08
+ART00192,"Quadri elettrici 522",Prodotti Finiti,Quadri elettrici,PZ,81.56,3497.87,6775.95
+ART00193,"Lubrificanti 137",Prodotti Chimici,Lubrificanti,LT,49.65,141.92,227.39
+ART00194,"Casse in legno 148",Imballaggi Industriali,Casse in legno,PZ,68.03,24.02,28.99
+ART00195,"Raccordi 653",Sistemi Idraulici,Raccordi,PZ,38.25,1197.25,2165.69
+ART00196,"Accumulatori 770",Sistemi Idraulici,Accumulatori,PZ,81.5,1854.16,2198.56
+ART00197,"Film stretch 770",Imballaggi Industriali,Film stretch,PZ,24.69,22.47,32.88
+ART00198,"Non tessuto 262",Tessuti Tecnici,Non tessuto,MQ,0.96,234.73,414.33
+ART00199,"Filtri industriali 176",Prodotti Finiti,Filtri industriali,PZ,5.51,2025.44,4049.16
+ART00200,"Filtri industriali 198",Prodotti Finiti,Filtri industriali,PZ,74.88,6102.8,7067.2
+ART00201,"Accumulatori 847",Sistemi Idraulici,Accumulatori,PZ,84.8,271.77,322.15
+ART00202,"Accumulatori 303",Sistemi Idraulici,Accumulatori,PZ,43.36,437.26,631.1
+ART00203,"Quadri elettrici 758",Prodotti Finiti,Quadri elettrici,PZ,0.62,3400.82,6239.61
+ART00204,"Adesivi 132",Prodotti Chimici,Adesivi,LT,57.3,110.12,160.87
+ART00205,"Policarbonato 355",Materie Plastiche,Policarbonato,KG,41.22,7.97,10.14
+ART00206,"Tessuto ignifugo 434",Tessuti Tecnici,Tessuto ignifugo,MQ,86.76,441.44,771.22
+ART00207,"PCB 856",Componentistica Elettronica,PCB,PZ,5.95,604.49,743.8
+ART00208,"Filtri 470",Sistemi Idraulici,Filtri,PZ,35.56,1493.17,2034.56
+ART00209,"Cilindri 662",Sistemi Idraulici,Cilindri,PZ,90.53,614.36,954.26
+ART00210,"Nylon 377",Materie Plastiche,Nylon,KG,4.53,26.9,41.11
+ART00211,"Reggette 899",Imballaggi Industriali,Reggette,PZ,1.23,20.72,34.41
+ART00212,"Guarnizioni 821",Meccanica di Precisione,Guarnizioni,PZ,70.41,387.71,560.08
+ART00213,"Nylon 711",Materie Plastiche,Nylon,KG,27.79,30.02,48.8
+ART00214,"Filtri 463",Sistemi Idraulici,Filtri,PZ,72.7,1098.28,1799
+ART00215,"Polipropilene 981",Materie Plastiche,Polipropilene,KG,29.76,21.76,37.88
+ART00216,"Quadri elettrici 126",Prodotti Finiti,Quadri elettrici,PZ,25.59,6829.33,10118.38
+ART00217,"Guarnizioni 255",Meccanica di Precisione,Guarnizioni,PZ,15.81,355.16,480.36
+ART00218,"Pompe centrifughe 266",Prodotti Finiti,Pompe centrifughe,PZ,97.16,5499.71,8576.69
+ART00219,"Resistenze 185",Componentistica Elettronica,Resistenze,PZ,20.89,778.95,1062.53
+ART00220,"Policarbonato 151",Materie Plastiche,Policarbonato,KG,23.09,34.99,47.23
+ART00221,"Tubi flessibili 225",Sistemi Idraulici,Tubi flessibili,PZ,10.78,270.06,381.29
+ART00222,"Paraoli 220",Semilavorati Gomma,Paraoli,PZ,47.02,42,67.88
+ART00223,"Connettori 239",Componentistica Elettronica,Connettori,PZ,68.74,698.27,1144.62
+ART00224,"Teflon 274",Materie Plastiche,Teflon,KG,4.7,14.1,22.03
+ART00225,"Pompe centrifughe 218",Prodotti Finiti,Pompe centrifughe,PZ,44.08,4125.85,5565.54
+ART00226,"Viti e Bulloni 816",Meccanica di Precisione,Viti e Bulloni,PZ,94.29,395.64,558.06
+ART00227,"Solventi 897",Prodotti Chimici,Solventi,LT,67.11,58.39,86.55
+ART00228,"Membrana PTFE 647",Tessuti Tecnici,Membrana PTFE,MQ,99.76,46.86,81.31
+ART00229,"Resistenze 328",Componentistica Elettronica,Resistenze,PZ,60.38,631.28,1219.7
+ART00230,"Alluminio 279",Acciaio e Metalli,Alluminio,KG,59.77,233.61,301.24
+ART00231,"Sensori 559",Componentistica Elettronica,Sensori,PZ,0.74,606.86,1160.05
+ART00232,"Reggette 234",Imballaggi Industriali,Reggette,PZ,99.16,3.02,3.71
+ART00233,"Valvole idrauliche 105",Sistemi Idraulici,Valvole idrauliche,PZ,11.99,360.38,580.89
+ART00234,"Non tessuto 625",Tessuti Tecnici,Non tessuto,MQ,65.18,380.24,661.18
+ART00235,"Guaine 323",Semilavorati Gomma,Guaine,PZ,92.77,27.06,51.29
+ART00236,"Viti e Bulloni 543",Meccanica di Precisione,Viti e Bulloni,PZ,35.68,130.74,256.98
+ART00237,"Solventi 937",Prodotti Chimici,Solventi,LT,9.41,119.41,183.03
+ART00238,"Reggette 506",Imballaggi Industriali,Reggette,PZ,91.57,24.1,37.48
+ART00239,"Nylon 656",Materie Plastiche,Nylon,KG,8.41,8.3,15.8
+ART00240,"Riduttori 629",Prodotti Finiti,Riduttori,PZ,70.46,5334.55,8197.11
+ART00241,"Valvole 179",Meccanica di Precisione,Valvole,PZ,28.19,413.73,516.59
+ART00242,"Valvole idrauliche 928",Sistemi Idraulici,Valvole idrauliche,PZ,43.99,1804.41,2879.42
+ART00243,"ABS 611",Materie Plastiche,ABS,KG,14.93,9.55,14.91
+ART00244,"Nastri 478",Semilavorati Gomma,Nastri,PZ,85.79,33,40.27
+ART00245,"Quadri elettrici 397",Prodotti Finiti,Quadri elettrici,PZ,72.02,495.42,639.38
+ART00246,"Contenitori metallo 457",Imballaggi Industriali,Contenitori metallo,PZ,22.36,6.62,8.99
+ART00247,"Profili 468",Semilavorati Gomma,Profili,PZ,97.9,46.9,75.38
+ART00248,"Policarbonato 181",Materie Plastiche,Policarbonato,KG,84.12,9.82,17.1
+ART00249,"PCB 455",Componentistica Elettronica,PCB,PZ,92.03,536.81,826.02
+ART00250,"Catalizzatori 599",Prodotti Chimici,Catalizzatori,LT,98.62,142.2,282.39
+ART00251,"Connettori 607",Componentistica Elettronica,Connettori,PZ,33.57,534.06,881.91
+ART00252,"Lubrificanti 282",Prodotti Chimici,Lubrificanti,LT,93.36,155,186.45
+ART00253,"Geotessile 827",Tessuti Tecnici,Geotessile,MQ,62.45,461.2,621.06
+ART00254,"Compressori 668",Prodotti Finiti,Compressori,PZ,0.15,7432.11,9309.59
+ART00255,"Reggette 210",Imballaggi Industriali,Reggette,PZ,17.67,11.48,15.98
+ART00256,"Rame 608",Acciaio e Metalli,Rame,KG,78.39,154.58,308.95
+ART00257,"Raccordi 642",Sistemi Idraulici,Raccordi,PZ,12.35,1264.74,1794.16
+ART00258,"Profili 136",Semilavorati Gomma,Profili,PZ,99.38,29.99,53.27
+ART00259,"O-Ring 300",Semilavorati Gomma,O-Ring,PZ,50.31,49.37,92.86
+ART00260,"Reggette 279",Imballaggi Industriali,Reggette,PZ,58.82,13.3,15.97
+ART00261,"Polipropilene 862",Materie Plastiche,Polipropilene,KG,13.8,24.31,36.24
+ART00262,"Raccordi 352",Sistemi Idraulici,Raccordi,PZ,9.74,1253.41,2329.71
+ART00263,"Solventi 308",Prodotti Chimici,Solventi,LT,77.21,64.59,112.56
+ART00264,"Catalizzatori 709",Prodotti Chimici,Catalizzatori,LT,33.04,34.06,62.29
+ART00265,"Casse in legno 988",Imballaggi Industriali,Casse in legno,PZ,26.19,12.2,17.88
+ART00266,"Condensatori 262",Componentistica Elettronica,Condensatori,PZ,87.77,503.88,632.76
+ART00267,"Reggette 769",Imballaggi Industriali,Reggette,PZ,87.18,14.74,28.72
+ART00268,"Non tessuto 774",Tessuti Tecnici,Non tessuto,MQ,8.46,206.78,340.05
+ART00269,"Riduttori 999",Prodotti Finiti,Riduttori,PZ,96.78,3856.84,6737.2
+ART00270,"Nastri 490",Semilavorati Gomma,Nastri,PZ,41.53,34.16,50.34
+ART00271,"Guarnizioni 451",Meccanica di Precisione,Guarnizioni,PZ,65.8,535.07,690.95
+ART00272,"Solventi 369",Prodotti Chimici,Solventi,LT,38.08,13.35,26.37
+ART00273,"Catalizzatori 423",Prodotti Chimici,Catalizzatori,LT,17.58,120.05,231.97
+ART00274,"Pompe centrifughe 517",Prodotti Finiti,Pompe centrifughe,PZ,45.25,6279.96,9074.1
+ART00275,"Profili 520",Semilavorati Gomma,Profili,PZ,5.39,61.34,77.69
+ART00276,"Trasformatori 649",Componentistica Elettronica,Trasformatori,PZ,63.22,421.24,723.02
+ART00277,"Policarbonato 838",Materie Plastiche,Policarbonato,KG,38.42,20.55,25.79
+ART00278,"Reggette 627",Imballaggi Industriali,Reggette,PZ,60.22,26.78,35.64
+ART00279,"Policarbonato 427",Materie Plastiche,Policarbonato,KG,71.24,37.7,62.31
+ART00280,"Polipropilene 943",Materie Plastiche,Polipropilene,KG,62.55,31.57,36.68
+ART00281,"Alberi 104",Meccanica di Precisione,Alberi,PZ,36.27,37.8,61.67
+ART00282,"Compressori 548",Prodotti Finiti,Compressori,PZ,61.95,3990.72,6802.68
+ART00283,"Policarbonato 836",Materie Plastiche,Policarbonato,KG,24.05,16.5,20.59
+ART00284,"Fiberglass 457",Tessuti Tecnici,Fiberglass,MQ,7.39,249.88,302.65
+ART00285,"Rame 828",Acciaio e Metalli,Rame,KG,40.86,190.88,268.93
+ART00286,"Scambiatori calore 164",Prodotti Finiti,Scambiatori calore,PZ,73.57,699.14,1055.03
+ART00287,"Resistenze 974",Componentistica Elettronica,Resistenze,PZ,98.63,705.31,852.28
+ART00288,"PCB 254",Componentistica Elettronica,PCB,PZ,23.22,346.3,469.55
+ART00289,"Fiberglass 658",Tessuti Tecnici,Fiberglass,MQ,16.49,142.57,273.73
+ART00290,"Detergenti 509",Prodotti Chimici,Detergenti,LT,5.46,160.26,255.76
+ART00291,"Fiberglass 319",Tessuti Tecnici,Fiberglass,MQ,38.91,97.34,159.59
+ART00292,"PVC 117",Materie Plastiche,PVC,KG,57.42,25.95,40.08
+ART00293,"Condensatori 410",Componentistica Elettronica,Condensatori,PZ,0.1,598.74,800.71
+ART00294,"Acciaio Inox 552",Acciaio e Metalli,Acciaio Inox,KG,1.17,136.71,265.38
+ART00295,"Valvole idrauliche 118",Sistemi Idraulici,Valvole idrauliche,PZ,89.11,559.49,918.25
+ART00296,"PCB 189",Componentistica Elettronica,PCB,PZ,53.36,151.77,299.62
+ART00297,"Pompe centrifughe 325",Prodotti Finiti,Pompe centrifughe,PZ,95.66,6511.2,8679.86
+ART00298,"Solventi 549",Prodotti Chimici,Solventi,LT,89.56,17.53,33.12
+ART00299,"Geotessile 232",Tessuti Tecnici,Geotessile,MQ,41.18,133.64,261.4
+ART00300,"Titanio 204",Acciaio e Metalli,Titanio,KG,30.62,83.05,138.05
+ART00301,"Guaine 660",Semilavorati Gomma,Guaine,PZ,24.71,22.79,43.08
+ART00302,"Resistenze 288",Componentistica Elettronica,Resistenze,PZ,43.18,59.15,102.02
+ART00303,"Polipropilene 319",Materie Plastiche,Polipropilene,KG,38.57,8.57,14.74
+ART00304,"PCB 787",Componentistica Elettronica,PCB,PZ,71.52,313.02,545.97
+ART00305,"Microcontrollori 304",Componentistica Elettronica,Microcontrollori,PZ,33.22,648.5,823.03
+ART00306,"Vernici 308",Prodotti Chimici,Vernici,LT,42.95,165.26,218.77
+ART00307,"Catalizzatori 843",Prodotti Chimici,Catalizzatori,LT,36.17,107.24,130.35
+ART00308,"Ghisa 546",Acciaio e Metalli,Ghisa,KG,13.93,138.21,221.24
+ART00309,"Compressori 633",Prodotti Finiti,Compressori,PZ,54.64,2710.45,5348.9
+ART00310,"Geotessile 705",Tessuti Tecnici,Geotessile,MQ,49.05,164.51,301.21
+ART00311,"Detergenti 317",Prodotti Chimici,Detergenti,LT,16.49,141.05,180.82
+ART00312,"Condensatori 638",Componentistica Elettronica,Condensatori,PZ,50.23,361.58,510.92
+ART00313,"Vernici 193",Prodotti Chimici,Vernici,LT,29.29,72.93,107.48
+ART00314,"Tubi flessibili 212",Sistemi Idraulici,Tubi flessibili,PZ,78.05,1775.75,3315.5
+ART00315,"Filtri 473",Sistemi Idraulici,Filtri,PZ,62.14,224.97,432.6
+ART00316,"Nastri 618",Semilavorati Gomma,Nastri,PZ,32.67,45.61,81.88
+ART00317,"Tubi gomma 910",Semilavorati Gomma,Tubi gomma,PZ,79.91,73.32,123.25
+ART00318,"Filtri 969",Sistemi Idraulici,Filtri,PZ,86.33,1820.83,3392.81
+ART00319,"Acciaio al Carbonio 471",Acciaio e Metalli,Acciaio al Carbonio,KG,84.58,146.93,267.56
+ART00320,"Scatole cartone 874",Imballaggi Industriali,Scatole cartone,PZ,84.79,23.72,32.18
+ART00321,"Casse in legno 637",Imballaggi Industriali,Casse in legno,PZ,43.49,25.73,37.93
+ART00322,"Geotessile 966",Tessuti Tecnici,Geotessile,MQ,59.71,77.13,94.41
+ART00323,"Alberi 833",Meccanica di Precisione,Alberi,PZ,9.01,431.4,562.88
+ART00324,"Polipropilene 833",Materie Plastiche,Polipropilene,KG,19.29,21.95,33.8
+ART00325,"Ingranaggi 834",Meccanica di Precisione,Ingranaggi,PZ,59.4,88.27,104.3
+ART00326,"Scambiatori calore 272",Prodotti Finiti,Scambiatori calore,PZ,9.36,7405.85,14204.03
+ART00327,"Lubrificanti 908",Prodotti Chimici,Lubrificanti,LT,15.63,79.45,156.37
+ART00328,"Scatole cartone 163",Imballaggi Industriali,Scatole cartone,PZ,61.99,22.76,39.58
+ART00329,"Guarnizioni 569",Meccanica di Precisione,Guarnizioni,PZ,13.66,420.37,489.3
+ART00330,"Nastri 346",Semilavorati Gomma,Nastri,PZ,73.96,37.4,55.98
+ART00331,"Film stretch 673",Imballaggi Industriali,Film stretch,PZ,37.08,6.64,8.26
+ART00332,"Kevlar 238",Tessuti Tecnici,Kevlar,MQ,82.13,132.87,225.35
+ART00333,"Geotessile 263",Tessuti Tecnici,Geotessile,MQ,39.59,313.43,408.12
+ART00334,"Geotessile 924",Tessuti Tecnici,Geotessile,MQ,28.06,213.55,404.13
+ART00335,"Teflon 561",Materie Plastiche,Teflon,KG,12.18,21.63,31.97
+ART00336,"Quadri elettrici 503",Prodotti Finiti,Quadri elettrici,PZ,28.89,4779.3,8710.81
+ART00337,"Motori elettrici 755",Prodotti Finiti,Motori elettrici,PZ,74.6,3705.35,5138.39
+ART00338,"Polietilene 794",Materie Plastiche,Polietilene,KG,96.78,31.84,53.91
+ART00339,"Titanio 223",Acciaio e Metalli,Titanio,KG,95.85,270.64,328.02
+ART00340,"Profili 507",Semilavorati Gomma,Profili,PZ,74.14,9.79,14.23
+ART00341,"Teflon 408",Materie Plastiche,Teflon,KG,73.31,2.84,4.44
+ART00342,"Molle 648",Meccanica di Precisione,Molle,PZ,76.67,225.22,370.58
+ART00343,"Membrane 719",Semilavorati Gomma,Membrane,PZ,25.33,13.18,23.89
+ART00344,"Solventi 419",Prodotti Chimici,Solventi,LT,61.53,76.29,139.32
+ART00345,"Lubrificanti 137",Prodotti Chimici,Lubrificanti,LT,76.84,92.7,182.73
+ART00346,"Pompe 813",Sistemi Idraulici,Pompe,PZ,62.85,1956.68,2518.43
+ART00347,"Zinco 239",Acciaio e Metalli,Zinco,KG,42.69,81.66,114.94
+ART00348,"Filtri 934",Sistemi Idraulici,Filtri,PZ,61.67,1560.75,2947.57
+ART00349,"Tessuto ignifugo 177",Tessuti Tecnici,Tessuto ignifugo,MQ,38.47,232.57,373.85
+ART00350,"PCB 174",Componentistica Elettronica,PCB,PZ,82.47,562.12,649.75
+ART00351,"PVC 465",Materie Plastiche,PVC,KG,73.46,30.71,49.92
+ART00352,"Guarnizioni 749",Meccanica di Precisione,Guarnizioni,PZ,33.72,509.87,706.42
+ART00353,"Paraoli 276",Semilavorati Gomma,Paraoli,PZ,5.39,12.01,17.6
+ART00354,"Alluminio 760",Acciaio e Metalli,Alluminio,KG,34.29,241.15,296.06
+ART00355,"Motori elettrici 145",Prodotti Finiti,Motori elettrici,PZ,61.66,2418.75,3958.16
+ART00356,"Polietilene 628",Materie Plastiche,Polietilene,KG,93.17,9.94,18.62
+ART00357,"Pompe centrifughe 621",Prodotti Finiti,Pompe centrifughe,PZ,56.85,6679.82,12000.57
+ART00358,"ABS 933",Materie Plastiche,ABS,KG,34.6,8.42,12.9
+ART00359,"Acciaio al Carbonio 223",Acciaio e Metalli,Acciaio al Carbonio,KG,60.98,198.05,316.31
+ART00360,"Accumulatori 545",Sistemi Idraulici,Accumulatori,PZ,85.79,1182.56,1669.42
+ART00361,"PVC 798",Materie Plastiche,PVC,KG,98.46,22.98,45.27
+ART00362,"Pompe 538",Sistemi Idraulici,Pompe,PZ,69.39,1139.94,1764.94
+ART00363,"Ghisa 677",Acciaio e Metalli,Ghisa,KG,82.22,121.66,230.99
+ART00364,"Alluminio 707",Acciaio e Metalli,Alluminio,KG,67.99,182.53,298.49
+ART00365,"Riduttori 377",Prodotti Finiti,Riduttori,PZ,12.81,3730.67,4598.85
+ART00366,"Valvole idrauliche 949",Sistemi Idraulici,Valvole idrauliche,PZ,52.72,588.65,1043.77
+ART00367,"Trasformatori 803",Componentistica Elettronica,Trasformatori,PZ,97.07,536.95,868.8
+ART00368,"Pompe 164",Sistemi Idraulici,Pompe,PZ,93.28,1387.5,2360.78
+ART00369,"Ghisa 237",Acciaio e Metalli,Ghisa,KG,66.26,261.78,320.71
+ART00370,"Lubrificanti 891",Prodotti Chimici,Lubrificanti,LT,91.4,144.14,219.94
+ART00371,"Adesivi 226",Prodotti Chimici,Adesivi,LT,98,100.66,128.02
+ART00372,"Alberi 192",Meccanica di Precisione,Alberi,PZ,5.1,436.23,531.13
+ART00373,"Fiberglass 111",Tessuti Tecnici,Fiberglass,MQ,72.07,174.78,305.81
+ART00374,"Adesivi 637",Prodotti Chimici,Adesivi,LT,55.85,56.06,82.64
+ART00375,"Riduttori 641",Prodotti Finiti,Riduttori,PZ,14.48,6662.14,9153.14
+ART00376,"Etichette 762",Imballaggi Industriali,Etichette,PZ,35.79,25.97,50.54
+ART00377,"Compressori 476",Prodotti Finiti,Compressori,PZ,9.7,4028.52,6816.29
+ART00378,"Valvole idrauliche 199",Sistemi Idraulici,Valvole idrauliche,PZ,57.27,243.65,375.45
+ART00379,"Policarbonato 184",Materie Plastiche,Policarbonato,KG,85.51,24.91,47.22
+ART00380,"Zinco 896",Acciaio e Metalli,Zinco,KG,11.87,119.82,178.16
+ART00381,"Detergenti 661",Prodotti Chimici,Detergenti,LT,0.43,131.34,222.69
+ART00382,"Titanio 490",Acciaio e Metalli,Titanio,KG,31.04,285.3,524.83
+ART00383,"Catalizzatori 243",Prodotti Chimici,Catalizzatori,LT,88.23,125.68,223.67
+ART00384,"Detergenti 188",Prodotti Chimici,Detergenti,LT,65.61,69.08,130.57
+ART00385,"Pallet 396",Imballaggi Industriali,Pallet,PZ,39.18,1.02,1.82
+ART00386,"Tessuto ignifugo 270",Tessuti Tecnici,Tessuto ignifugo,MQ,26.37,153.81,236.29
+ART00387,"Detergenti 387",Prodotti Chimici,Detergenti,LT,22.95,40.28,76.79
+ART00388,"Ghisa 625",Acciaio e Metalli,Ghisa,KG,52.77,87.17,152.02
+ART00389,"Geotessile 284",Tessuti Tecnici,Geotessile,MQ,82.57,126.44,204.51
+ART00390,"Policarbonato 578",Materie Plastiche,Policarbonato,KG,2.17,32.29,51.37
+ART00391,"Detergenti 335",Prodotti Chimici,Detergenti,LT,54.35,192.58,253.08
+ART00392,"Profili 576",Semilavorati Gomma,Profili,PZ,76.6,55.57,82.94
+ART00393,"Ingranaggi 314",Meccanica di Precisione,Ingranaggi,PZ,93.31,103.62,163.27
+ART00394,"Geotessile 435",Tessuti Tecnici,Geotessile,MQ,29.27,181.31,213.32
+ART00395,"Scatole cartone 856",Imballaggi Industriali,Scatole cartone,PZ,8.92,10.12,19.95
+ART00396,"Paraoli 767",Semilavorati Gomma,Paraoli,PZ,18.16,31.47,49.79
+ART00397,"Fibra di carbonio 896",Tessuti Tecnici,Fibra di carbonio,MQ,40.74,476.91,689.47
+ART00398,"Tessuto ignifugo 940",Tessuti Tecnici,Tessuto ignifugo,MQ,98.7,405.6,558.17
+ART00399,"Sensori 897",Componentistica Elettronica,Sensori,PZ,28.7,505.31,861.07
+ART00400,"Adesivi 640",Prodotti Chimici,Adesivi,LT,72.82,10.61,20.52
+ART00401,"Compressori 132",Prodotti Finiti,Compressori,PZ,57.69,4234.03,6929.8
+ART00402,"Raccordi 640",Sistemi Idraulici,Raccordi,PZ,36.48,1711.58,2923.45
+ART00403,"Sensori 845",Componentistica Elettronica,Sensori,PZ,81.19,202.92,329.38
+ART00404,"Accumulatori 388",Sistemi Idraulici,Accumulatori,PZ,93.03,314.63,597.14
+ART00405,"Quadri elettrici 818",Prodotti Finiti,Quadri elettrici,PZ,53.55,1808.71,3487.59
+ART00406,"Resine 180",Prodotti Chimici,Resine,LT,24.39,82,113.1
+ART00407,"Sensori 216",Componentistica Elettronica,Sensori,PZ,25.63,474.1,810.09
+ART00408,"Contenitori metallo 571",Imballaggi Industriali,Contenitori metallo,PZ,37.36,18.89,28.88
+ART00409,"Sensori 177",Componentistica Elettronica,Sensori,PZ,83.62,710.6,1397.55
+ART00410,"Polietilene 941",Materie Plastiche,Polietilene,KG,27.21,33.71,62.95
+ART00411,"PCB 581",Componentistica Elettronica,PCB,PZ,35.42,476.87,736.19
+ART00412,"Molle 223",Meccanica di Precisione,Molle,PZ,25.76,50.26,82.86
+ART00413,"Tubi gomma 119",Semilavorati Gomma,Tubi gomma,PZ,74.69,25.84,46.9
+ART00414,"Filtri industriali 355",Prodotti Finiti,Filtri industriali,PZ,26.07,2903.05,4295.86
+ART00415,"Titanio 222",Acciaio e Metalli,Titanio,KG,76.82,187.4,366.21
+ART00416,"Rame 625",Acciaio e Metalli,Rame,KG,1.07,107.03,195.91
+ART00417,"Tubi gomma 244",Semilavorati Gomma,Tubi gomma,PZ,6.88,57.34,97.74
+ART00418,"Condensatori 100",Componentistica Elettronica,Condensatori,PZ,58.11,525.97,758.21
+ART00419,"Acciaio Inox 312",Acciaio e Metalli,Acciaio Inox,KG,43.95,270.71,432.98
+ART00420,"Fibra di carbonio 373",Tessuti Tecnici,Fibra di carbonio,MQ,96.83,306.38,433.02
+ART00421,"Teflon 561",Materie Plastiche,Teflon,KG,51.72,36.45,67.15
+ART00422,"Resine 176",Prodotti Chimici,Resine,LT,62.38,173.74,245.25
+ART00423,"Solventi 138",Prodotti Chimici,Solventi,LT,49.95,24.28,30.78
+ART00424,"Reggette 620",Imballaggi Industriali,Reggette,PZ,11.28,10.07,18.58
+ART00425,"Pompe 447",Sistemi Idraulici,Pompe,PZ,66.48,1035.76,1468.45
+ART00426,"Reggette 472",Imballaggi Industriali,Reggette,PZ,32.01,29.66,42.31
+ART00427,"Ghisa 245",Acciaio e Metalli,Ghisa,KG,74.51,280.77,400
+ART00428,"Alluminio 698",Acciaio e Metalli,Alluminio,KG,87.63,269.01,498.06
+ART00429,"Motori elettrici 139",Prodotti Finiti,Motori elettrici,PZ,44.79,4333.64,8307.69
+ART00430,"Lubrificanti 797",Prodotti Chimici,Lubrificanti,LT,72.55,76.64,135.89
+ART00431,"Pallet 920",Imballaggi Industriali,Pallet,PZ,67.5,19.74,29.86
+ART00432,"PVC 328",Materie Plastiche,PVC,KG,0.6,6.12,9.72
+ART00433,"Viti e Bulloni 251",Meccanica di Precisione,Viti e Bulloni,PZ,23.41,219.33,435.7
+ART00434,"Policarbonato 307",Materie Plastiche,Policarbonato,KG,66.68,30.34,49.69
+ART00435,"Valvole 496",Meccanica di Precisione,Valvole,PZ,9.01,212.24,394.12
+ART00436,"Connettori 307",Componentistica Elettronica,Connettori,PZ,49.16,450.79,591.6
+ART00437,"Alluminio 229",Acciaio e Metalli,Alluminio,KG,45.39,279.51,475.63
+ART00438,"Catalizzatori 808",Prodotti Chimici,Catalizzatori,LT,45.09,95.05,155.48
+ART00439,"Microcontrollori 701",Componentistica Elettronica,Microcontrollori,PZ,25.48,385.41,528.63
+ART00440,"Cilindri 773",Sistemi Idraulici,Cilindri,PZ,55.61,1021.37,1424.01
+ART00441,"Scambiatori calore 229",Prodotti Finiti,Scambiatori calore,PZ,79.36,2267.41,4055.2
+ART00442,"Pallet 438",Imballaggi Industriali,Pallet,PZ,63.61,1.53,2.63
+ART00443,"Teflon 128",Materie Plastiche,Teflon,KG,62.25,38,48.29
+ART00444,"Ingranaggi 658",Meccanica di Precisione,Ingranaggi,PZ,70.81,571.13,1110.61
+ART00445,"Detergenti 132",Prodotti Chimici,Detergenti,LT,95.12,97.87,117.23
+ART00446,"Cilindri 234",Sistemi Idraulici,Cilindri,PZ,86.61,1867.55,2342.61
+ART00447,"Cuscinetti 139",Meccanica di Precisione,Cuscinetti,PZ,12.2,171.52,202.71
+ART00448,"Ingranaggi 118",Meccanica di Precisione,Ingranaggi,PZ,85.69,293.49,360.63
+ART00449,"Connettori 193",Componentistica Elettronica,Connettori,PZ,95.5,548.93,841.53
+ART00450,"Polietilene 178",Materie Plastiche,Polietilene,KG,76.69,2.36,3.06
+ART00451,"Fiberglass 700",Tessuti Tecnici,Fiberglass,MQ,0.72,109.82,138.62
+ART00452,"Motori elettrici 547",Prodotti Finiti,Motori elettrici,PZ,49.08,6062.29,8216.77
+ART00453,"Quadri elettrici 613",Prodotti Finiti,Quadri elettrici,PZ,4.42,6002.27,7988.92
+ART00454,"Detergenti 924",Prodotti Chimici,Detergenti,LT,90.52,136.67,188.01
+ART00455,"Cuscinetti 552",Meccanica di Precisione,Cuscinetti,PZ,26.98,345.93,629.37
+ART00456,"Pompe 366",Sistemi Idraulici,Pompe,PZ,91.69,1957.49,3315.74
+ART00457,"Valvole 947",Meccanica di Precisione,Valvole,PZ,11.23,529.17,764.97
+ART00458,"Paraoli 409",Semilavorati Gomma,Paraoli,PZ,81.03,78.08,144.91
+ART00459,"Trasformatori 806",Componentistica Elettronica,Trasformatori,PZ,61.3,463.18,594.41
+ART00460,"O-Ring 104",Semilavorati Gomma,O-Ring,PZ,56.38,10.5,13.34
+ART00461,"Polipropilene 248",Materie Plastiche,Polipropilene,KG,71.33,34.59,68.66
+ART00462,"Scambiatori calore 645",Prodotti Finiti,Scambiatori calore,PZ,5.8,4370.72,7421.3
+ART00463,"Rame 272",Acciaio e Metalli,Rame,KG,98.94,128.2,241.43
+ART00464,"Microcontrollori 548",Componentistica Elettronica,Microcontrollori,PZ,34.72,657.4,1078.01
+ART00465,"Raccordi 628",Sistemi Idraulici,Raccordi,PZ,62.93,829.49,1536.21
+ART00466,"Accumulatori 384",Sistemi Idraulici,Accumulatori,PZ,41.68,361.87,642.48
+ART00467,"Lubrificanti 522",Prodotti Chimici,Lubrificanti,LT,70.02,37.94,67.39
+ART00468,"Guaine 285",Semilavorati Gomma,Guaine,PZ,9.72,39.25,68.34
+ART00469,"Acciaio al Carbonio 769",Acciaio e Metalli,Acciaio al Carbonio,KG,0.23,279.71,485.72
+ART00470,"Kevlar 679",Tessuti Tecnici,Kevlar,MQ,5.74,201.08,378.18
+ART00471,"Fibra di carbonio 881",Tessuti Tecnici,Fibra di carbonio,MQ,5.73,406.55,683.02
+ART00472,"Nylon 719",Materie Plastiche,Nylon,KG,4.9,26.2,45.17
+ART00473,"Tessuto ignifugo 948",Tessuti Tecnici,Tessuto ignifugo,MQ,2.68,266.24,322.92
+ART00474,"Tubi flessibili 812",Sistemi Idraulici,Tubi flessibili,PZ,82.37,1485,2385.19
+ART00475,"Zinco 449",Acciaio e Metalli,Zinco,KG,60.83,273.99,372.09
+ART00476,"O-Ring 568",Semilavorati Gomma,O-Ring,PZ,39.51,52.29,68.4
+ART00477,"Valvole 705",Meccanica di Precisione,Valvole,PZ,20.61,267.92,492.65
+ART00478,"Molle 814",Meccanica di Precisione,Molle,PZ,56.7,559.63,953.47
+ART00479,"Casse in legno 858",Imballaggi Industriali,Casse in legno,PZ,92.3,3.06,3.85
+ART00480,"Paraoli 552",Semilavorati Gomma,Paraoli,PZ,90.09,65.74,76.92
+ART00481,"Zinco 838",Acciaio e Metalli,Zinco,KG,17.05,220.44,398.58
+ART00482,"PCB 658",Componentistica Elettronica,PCB,PZ,54.27,592.47,991.15
+ART00483,"Resistenze 755",Componentistica Elettronica,Resistenze,PZ,94.36,124.64,206.22
+ART00484,"Ghisa 246",Acciaio e Metalli,Ghisa,KG,58.26,211.57,297.59
+ART00485,"Filtri 728",Sistemi Idraulici,Filtri,PZ,5.81,1691.5,2886.84
+ART00486,"Sensori 639",Componentistica Elettronica,Sensori,PZ,86.88,613.68,752.67
+ART00487,"Alluminio 923",Acciaio e Metalli,Alluminio,KG,89.62,161.21,296.98
+ART00488,"Alluminio 631",Acciaio e Metalli,Alluminio,KG,44.68,175.81,233.44
+ART00489,"Guaine 895",Semilavorati Gomma,Guaine,PZ,45.82,63.55,115.73
+ART00490,"Policarbonato 232",Materie Plastiche,Policarbonato,KG,4.76,2.26,3.13
+ART00491,"Vernici 223",Prodotti Chimici,Vernici,LT,76.62,38.23,73.98
+ART00492,"Filtri 617",Sistemi Idraulici,Filtri,PZ,29.4,1020.59,1456.94
+ART00493,"O-Ring 893",Semilavorati Gomma,O-Ring,PZ,91.75,68.92,82.76
+ART00494,"Molle 835",Meccanica di Precisione,Molle,PZ,55,144.51,259.76
+ART00495,"Ingranaggi 380",Meccanica di Precisione,Ingranaggi,PZ,33.45,71.56,94.27
+ART00496,"Compressori 147",Prodotti Finiti,Compressori,PZ,58.3,1833.54,2900.78
+ART00497,"Tessuto ignifugo 623",Tessuti Tecnici,Tessuto ignifugo,MQ,0.76,497.92,932.7
+ART00498,"Alberi 687",Meccanica di Precisione,Alberi,PZ,46.14,83.21,161.81
+ART00499,"Casse in legno 690",Imballaggi Industriali,Casse in legno,PZ,77.79,10.68,14.92
+ART00500,"Acciaio al Carbonio 885",Acciaio e Metalli,Acciaio al Carbonio,KG,35.95,210.09,299.8
+ART00501,"Film stretch 587",Imballaggi Industriali,Film stretch,PZ,95.7,28.33,34.33
+ART00502,"Connettori 874",Componentistica Elettronica,Connettori,PZ,19.13,280.42,550.74
+ART00503,"Rame 661",Acciaio e Metalli,Rame,KG,83.08,109.05,175.98
+ART00504,"Scambiatori calore 887",Prodotti Finiti,Scambiatori calore,PZ,24.57,3432.91,4161.48
+ART00505,"Microcontrollori 175",Componentistica Elettronica,Microcontrollori,PZ,84.35,617.97,839.24
+ART00506,"Polipropilene 811",Materie Plastiche,Polipropilene,KG,24.41,14.24,20.06
+ART00507,"Ingranaggi 691",Meccanica di Precisione,Ingranaggi,PZ,50.98,520.96,755.09
+ART00508,"Tessuto ignifugo 348",Tessuti Tecnici,Tessuto ignifugo,MQ,49.33,100.17,143.76
+ART00509,"Zinco 270",Acciaio e Metalli,Zinco,KG,35.06,245.44,416.04
+ART00510,"Cilindri 308",Sistemi Idraulici,Cilindri,PZ,5.39,1677.26,3154.59
+ART00511,"Motori elettrici 768",Prodotti Finiti,Motori elettrici,PZ,40.09,2325.78,3816.81
+ART00512,"Raccordi 433",Sistemi Idraulici,Raccordi,PZ,9.88,1675.29,2096.96
+ART00513,"Contenitori metallo 302",Imballaggi Industriali,Contenitori metallo,PZ,8.55,16.09,25.36
+ART00514,"Scambiatori calore 119",Prodotti Finiti,Scambiatori calore,PZ,88.03,4029.78,6630.4
+ART00515,"Guarnizioni 808",Meccanica di Precisione,Guarnizioni,PZ,50.92,36.77,44.06
+ART00516,"Rame 593",Acciaio e Metalli,Rame,KG,98.09,187.06,302.27
+ART00517,"Casse in legno 518",Imballaggi Industriali,Casse in legno,PZ,46.03,17.21,24.17
+ART00518,"Riduttori 966",Prodotti Finiti,Riduttori,PZ,76.74,7705.77,13640.51
+ART00519,"Titanio 821",Acciaio e Metalli,Titanio,KG,67.1,227.84,289.91
+ART00520,"Teflon 653",Materie Plastiche,Teflon,KG,22.12,28.28,35.27
+ART00521,"Policarbonato 493",Materie Plastiche,Policarbonato,KG,13.52,39.71,48.39
+ART00522,"Ghisa 150",Acciaio e Metalli,Ghisa,KG,56.61,89.56,151.85
+ART00523,"Scambiatori calore 909",Prodotti Finiti,Scambiatori calore,PZ,52.79,5831.75,8340.71
+ART00524,"Nylon 492",Materie Plastiche,Nylon,KG,36.65,29.48,46.46
+ART00525,"Polipropilene 167",Materie Plastiche,Polipropilene,KG,2.43,28.45,53.42
+ART00526,"Fiberglass 143",Tessuti Tecnici,Fiberglass,MQ,1.69,272.97,336
+ART00527,"Non tessuto 196",Tessuti Tecnici,Non tessuto,MQ,6.5,153.51,296.15
+ART00528,"Casse in legno 894",Imballaggi Industriali,Casse in legno,PZ,79.44,18.23,35.88
+ART00529,"Valvole 718",Meccanica di Precisione,Valvole,PZ,86.42,432.84,520.52
+ART00530,"Tubi flessibili 358",Sistemi Idraulici,Tubi flessibili,PZ,89.73,1782.35,2371.96
+ART00531,"Cilindri 991",Sistemi Idraulici,Cilindri,PZ,70.91,1616.02,2904.58
+ART00532,"Solventi 192",Prodotti Chimici,Solventi,LT,14.06,180.63,248.39
+ART00533,"PVC 759",Materie Plastiche,PVC,KG,34.45,39.77,48.49
+ART00534,"Pallet 901",Imballaggi Industriali,Pallet,PZ,23.05,23.73,46.22
+ART00535,"Raccordi 175",Sistemi Idraulici,Raccordi,PZ,99.22,576.81,700.95
+ART00536,"Accumulatori 179",Sistemi Idraulici,Accumulatori,PZ,78.98,953.25,1254.39
+ART00537,"Zinco 475",Acciaio e Metalli,Zinco,KG,80.13,174.34,323.33
+ART00538,"Filtri industriali 307",Prodotti Finiti,Filtri industriali,PZ,55.66,3020.42,3666.52
+ART00539,"Adesivi 228",Prodotti Chimici,Adesivi,LT,77.52,126.73,177.6
+ART00540,"Casse in legno 613",Imballaggi Industriali,Casse in legno,PZ,42.76,24.76,41.69
+ART00541,"Compressori 184",Prodotti Finiti,Compressori,PZ,47.34,1895.34,2817.23
+ART00542,"Guaine 755",Semilavorati Gomma,Guaine,PZ,26.72,32.55,61.87
+ART00543,"Resine 284",Prodotti Chimici,Resine,LT,3.5,104.27,120.02
+ART00544,"Valvole idrauliche 296",Sistemi Idraulici,Valvole idrauliche,PZ,65.64,979.01,1256.68
+ART00545,"Tubi gomma 532",Semilavorati Gomma,Tubi gomma,PZ,32,43.99,78.99
+ART00546,"Lubrificanti 965",Prodotti Chimici,Lubrificanti,LT,0.12,41,55.65
+ART00547,"Microcontrollori 513",Componentistica Elettronica,Microcontrollori,PZ,21.49,305.16,588.34
+ART00548,"Acciaio al Carbonio 238",Acciaio e Metalli,Acciaio al Carbonio,KG,67.3,83.93,117.06
+ART00549,"Filtri industriali 721",Prodotti Finiti,Filtri industriali,PZ,40.21,4125.88,6693.97
+ART00550,"Policarbonato 175",Materie Plastiche,Policarbonato,KG,10.42,13.79,20.34
+ART00551,"Ingranaggi 941",Meccanica di Precisione,Ingranaggi,PZ,13.59,547.81,1073.01
+ART00552,"Accumulatori 797",Sistemi Idraulici,Accumulatori,PZ,0.84,56.7,74.56
+ART00553,"Zinco 168",Acciaio e Metalli,Zinco,KG,82.58,192.59,370.74
+ART00554,"Filtri 598",Sistemi Idraulici,Filtri,PZ,14.99,624.91,801.9
+ART00555,"Contenitori metallo 998",Imballaggi Industriali,Contenitori metallo,PZ,47.15,19.55,27.98
+ART00556,"Casse in legno 909",Imballaggi Industriali,Casse in legno,PZ,33.12,20.91,24.68
+ART00557,"Zinco 890",Acciaio e Metalli,Zinco,KG,24.78,255.63,368.48
+ART00558,"Resistenze 270",Componentistica Elettronica,Resistenze,PZ,52.41,655.15,1257.67
+ART00559,"Etichette 697",Imballaggi Industriali,Etichette,PZ,78.52,1.36,2.44
+ART00560,"Resine 288",Prodotti Chimici,Resine,LT,31.24,113.34,211.27
+ART00561,"Valvole 724",Meccanica di Precisione,Valvole,PZ,94.42,238.83,419.18
+ART00562,"Molle 562",Meccanica di Precisione,Molle,PZ,7.12,598.68,1126.87
+ART00563,"Profili 743",Semilavorati Gomma,Profili,PZ,12.95,57.65,99.05
+ART00564,"Reggette 119",Imballaggi Industriali,Reggette,PZ,55.3,18.88,36.88
+ART00565,"Scambiatori calore 785",Prodotti Finiti,Scambiatori calore,PZ,44.1,2508.26,3418
+ART00566,"Tessuto ignifugo 491",Tessuti Tecnici,Tessuto ignifugo,MQ,80.3,196.87,247.42
+ART00567,"Microcontrollori 681",Componentistica Elettronica,Microcontrollori,PZ,20.87,228.58,363.24
+ART00568,"Accumulatori 423",Sistemi Idraulici,Accumulatori,PZ,57.48,1346.27,1553.94
+ART00569,"Cilindri 139",Sistemi Idraulici,Cilindri,PZ,70.79,295.65,501.33
+ART00570,"Membrana PTFE 298",Tessuti Tecnici,Membrana PTFE,MQ,67.04,351.06,464.63
+ART00571,"ABS 459",Materie Plastiche,ABS,KG,10.27,5.73,7.35
+ART00572,"Tubi flessibili 408",Sistemi Idraulici,Tubi flessibili,PZ,87.28,312.87,508.53
+ART00573,"Etichette 226",Imballaggi Industriali,Etichette,PZ,91.34,26.36,34.13
+ART00574,"Resistenze 818",Componentistica Elettronica,Resistenze,PZ,39.73,458.24,569.08
+ART00575,"Geotessile 944",Tessuti Tecnici,Geotessile,MQ,55.5,315.66,432.81
+ART00576,"Profili 900",Semilavorati Gomma,Profili,PZ,3.01,75.22,96.9
+ART00577,"Lubrificanti 998",Prodotti Chimici,Lubrificanti,LT,74.41,34.01,65.91
+ART00578,"Trasformatori 425",Componentistica Elettronica,Trasformatori,PZ,37.72,722.75,840.88
+ART00579,"Kevlar 649",Tessuti Tecnici,Kevlar,MQ,82.14,476.88,877.78
+ART00580,"Film stretch 755",Imballaggi Industriali,Film stretch,PZ,89.62,2.23,2.71
+ART00581,"Lubrificanti 500",Prodotti Chimici,Lubrificanti,LT,28.49,111.41,135.99
+ART00582,"Tubi gomma 360",Semilavorati Gomma,Tubi gomma,PZ,63.19,11.74,18.46
+ART00583,"Valvole 403",Meccanica di Precisione,Valvole,PZ,8.3,466.63,798.92
+ART00584,"Connettori 753",Componentistica Elettronica,Connettori,PZ,82.72,702.78,1129.23
+ART00585,"Pompe centrifughe 575",Prodotti Finiti,Pompe centrifughe,PZ,46.26,4951.26,6632.89
+ART00586,"Guarnizioni 437",Meccanica di Precisione,Guarnizioni,PZ,83.33,144.24,202.74
+ART00587,"Adesivi 651",Prodotti Chimici,Adesivi,LT,42.01,103.81,131.15
+ART00588,"Cilindri 573",Sistemi Idraulici,Cilindri,PZ,98.8,1125.13,1819.69
+ART00589,"Connettori 704",Componentistica Elettronica,Connettori,PZ,5.16,667.97,1189.49
+ART00590,"Polipropilene 441",Materie Plastiche,Polipropilene,KG,38.71,28.98,50.66
+ART00591,"Trasformatori 382",Componentistica Elettronica,Trasformatori,PZ,34.97,639.97,1123.57
+ART00592,"Condensatori 547",Componentistica Elettronica,Condensatori,PZ,71.81,703.17,983.4
+ART00593,"Paraoli 676",Semilavorati Gomma,Paraoli,PZ,24.26,9,12.68
+ART00594,"Vernici 891",Prodotti Chimici,Vernici,LT,57.97,51.25,77.37
+ART00595,"Resistenze 389",Componentistica Elettronica,Resistenze,PZ,92.48,370.04,670.76
+ART00596,"Viti e Bulloni 101",Meccanica di Precisione,Viti e Bulloni,PZ,95.89,145.02,172.81
+ART00597,"Rame 388",Acciaio e Metalli,Rame,KG,77.3,153,223.2
+ART00598,"Adesivi 501",Prodotti Chimici,Adesivi,LT,78.66,15.46,18.99
+ART00599,"Valvole 961",Meccanica di Precisione,Valvole,PZ,39.7,293.91,441.71
+ART00600,"Adesivi 970",Prodotti Chimici,Adesivi,LT,74.44,38.68,68.04
+ART00601,"PCB 383",Componentistica Elettronica,PCB,PZ,62.07,602.97,1077.42
+ART00602,"Pompe centrifughe 206",Prodotti Finiti,Pompe centrifughe,PZ,74.45,3252.07,4556.62
+ART00603,"Valvole idrauliche 307",Sistemi Idraulici,Valvole idrauliche,PZ,44.07,1090.52,1499.47
+ART00604,"Compressori 800",Prodotti Finiti,Compressori,PZ,75.36,7235.16,13694.6
+ART00605,"Adesivi 404",Prodotti Chimici,Adesivi,LT,25.95,13.57,19.2
+ART00606,"Reggette 285",Imballaggi Industriali,Reggette,PZ,88.46,19.4,25.11
+ART00607,"Detergenti 912",Prodotti Chimici,Detergenti,LT,94.01,153.62,237.6
+ART00608,"Detergenti 527",Prodotti Chimici,Detergenti,LT,92.56,135.85,203.84
+ART00609,"Geotessile 499",Tessuti Tecnici,Geotessile,MQ,47.81,22.25,37.54
+ART00610,"Ingranaggi 453",Meccanica di Precisione,Ingranaggi,PZ,72.99,77.91,127.03
+ART00611,"Teflon 421",Materie Plastiche,Teflon,KG,33.94,32.03,54.32
+ART00612,"Alluminio 343",Acciaio e Metalli,Alluminio,KG,13.79,225.38,398.85
+ART00613,"Fibra di carbonio 141",Tessuti Tecnici,Fibra di carbonio,MQ,76.02,384.04,699.68
+ART00614,"Scatole cartone 240",Imballaggi Industriali,Scatole cartone,PZ,35.35,27.84,50.27
+ART00615,"Geotessile 353",Tessuti Tecnici,Geotessile,MQ,55.44,112.28,219.64
+ART00616,"Accumulatori 436",Sistemi Idraulici,Accumulatori,PZ,94.6,189.04,295.03
+ART00617,"Scambiatori calore 790",Prodotti Finiti,Scambiatori calore,PZ,22.83,6432.92,8519.67
+ART00618,"Accumulatori 551",Sistemi Idraulici,Accumulatori,PZ,90.04,1086.87,1991.81
+ART00619,"Polipropilene 255",Materie Plastiche,Polipropilene,KG,44.7,6.85,9
+ART00620,"Polipropilene 215",Materie Plastiche,Polipropilene,KG,38.66,29.76,57.34
+ART00621,"Cilindri 178",Sistemi Idraulici,Cilindri,PZ,14.98,1461.31,2332.88
+ART00622,"Guaine 107",Semilavorati Gomma,Guaine,PZ,17.14,8.37,11.4
+ART00623,"Pompe 680",Sistemi Idraulici,Pompe,PZ,86.29,802.44,931.74
+ART00624,"Filtri 519",Sistemi Idraulici,Filtri,PZ,84.26,1349.42,2378.75
+ART00625,"Quadri elettrici 831",Prodotti Finiti,Quadri elettrici,PZ,0.46,1192.9,1970.94
+ART00626,"Membrane 262",Semilavorati Gomma,Membrane,PZ,26.96,46.81,81.27
+ART00627,"ABS 595",Materie Plastiche,ABS,KG,23.08,28.85,35.97
+ART00628,"Reggette 701",Imballaggi Industriali,Reggette,PZ,97.07,13.79,21.83
+ART00629,"Pompe centrifughe 420",Prodotti Finiti,Pompe centrifughe,PZ,11.68,6712.45,10314.2
+ART00630,"Tubi gomma 213",Semilavorati Gomma,Tubi gomma,PZ,30.94,75.64,129.51
+ART00631,"Tubi flessibili 923",Sistemi Idraulici,Tubi flessibili,PZ,72.43,865.69,1416.5
+ART00632,"Resine 498",Prodotti Chimici,Resine,LT,69.21,67.7,123.52
+ART00633,"Teflon 846",Materie Plastiche,Teflon,KG,84.75,18.99,29.36
+ART00634,"Quadri elettrici 579",Prodotti Finiti,Quadri elettrici,PZ,18.81,6450.11,8534.69
+ART00635,"Catalizzatori 720",Prodotti Chimici,Catalizzatori,LT,98.73,83.89,110.9
+ART00636,"Scatole cartone 381",Imballaggi Industriali,Scatole cartone,PZ,24.49,5.6,9.14
+ART00637,"Connettori 948",Componentistica Elettronica,Connettori,PZ,35.07,161.37,242.79
+ART00638,"Cuscinetti 969",Meccanica di Precisione,Cuscinetti,PZ,41.96,55.15,108.13
+ART00639,"Accumulatori 378",Sistemi Idraulici,Accumulatori,PZ,42.01,615.56,1222.27
+ART00640,"Membrane 387",Semilavorati Gomma,Membrane,PZ,29.93,29.5,44.77
+ART00641,"Pompe centrifughe 755",Prodotti Finiti,Pompe centrifughe,PZ,89.2,1131.51,2024.18
+ART00642,"Alberi 527",Meccanica di Precisione,Alberi,PZ,3.11,263.46,484.23
+ART00643,"Pompe 158",Sistemi Idraulici,Pompe,PZ,2.97,387.65,626.31
+ART00644,"Etichette 127",Imballaggi Industriali,Etichette,PZ,13.53,7.49,10.49
+ART00645,"Titanio 158",Acciaio e Metalli,Titanio,KG,72.91,197.88,368.37
+ART00646,"Membrana PTFE 561",Tessuti Tecnici,Membrana PTFE,MQ,52.2,284.05,363.83
+ART00647,"Scambiatori calore 360",Prodotti Finiti,Scambiatori calore,PZ,84.19,2992.13,5316.98
+ART00648,"Pallet 885",Imballaggi Industriali,Pallet,PZ,88.35,18.14,30.42
+ART00649,"Lubrificanti 118",Prodotti Chimici,Lubrificanti,LT,55.56,170.8,239.74
+ART00650,"Acciaio al Carbonio 251",Acciaio e Metalli,Acciaio al Carbonio,KG,88.54,121.18,205.63
+ART00651,"Scambiatori calore 421",Prodotti Finiti,Scambiatori calore,PZ,87.54,5143.18,6860.59
+ART00652,"Tessuto ignifugo 791",Tessuti Tecnici,Tessuto ignifugo,MQ,82.69,445.7,606.34
+ART00653,"Pompe centrifughe 106",Prodotti Finiti,Pompe centrifughe,PZ,50.61,5181.64,7782.35
+ART00654,"Paraoli 743",Semilavorati Gomma,Paraoli,PZ,69.22,4.02,6.52
+ART00655,"Motori elettrici 542",Prodotti Finiti,Motori elettrici,PZ,67.94,6229.16,7949.78
+ART00656,"Motori elettrici 175",Prodotti Finiti,Motori elettrici,PZ,76.68,1976.23,3577.88
+ART00657,"Catalizzatori 775",Prodotti Chimici,Catalizzatori,LT,72.54,30.5,50
+ART00658,"Acciaio Inox 515",Acciaio e Metalli,Acciaio Inox,KG,23.75,151.69,265.09
+ART00659,"Nastri 452",Semilavorati Gomma,Nastri,PZ,43.31,30.53,59.48
+ART00660,"Polietilene 905",Materie Plastiche,Polietilene,KG,45.06,11.43,18.09
+ART00661,"Polipropilene 155",Materie Plastiche,Polipropilene,KG,49.88,31.97,58.75
+ART00662,"Acciaio al Carbonio 934",Acciaio e Metalli,Acciaio al Carbonio,KG,74.93,199.09,382.38
+ART00663,"PCB 699",Componentistica Elettronica,PCB,PZ,60.76,734.29,867.69
+ART00664,"Etichette 610",Imballaggi Industriali,Etichette,PZ,6.14,22.89,44.81
+ART00665,"Fibra di carbonio 494",Tessuti Tecnici,Fibra di carbonio,MQ,94.58,308.13,448.18
+ART00666,"Accumulatori 389",Sistemi Idraulici,Accumulatori,PZ,66.06,1034.14,1218.67
+ART00667,"Catalizzatori 172",Prodotti Chimici,Catalizzatori,LT,19.08,82.51,151
+ART00668,"Membrane 671",Semilavorati Gomma,Membrane,PZ,77.15,17.87,33.98
+ART00669,"Pompe centrifughe 515",Prodotti Finiti,Pompe centrifughe,PZ,27.56,1790.23,2564.79
+ART00670,"Accumulatori 408",Sistemi Idraulici,Accumulatori,PZ,94.27,1245.84,2064.02
+ART00671,"Vernici 655",Prodotti Chimici,Vernici,LT,47.43,170.05,256.52
+ART00672,"Guaine 112",Semilavorati Gomma,Guaine,PZ,35.7,74.41,148.81
+ART00673,"Sensori 114",Componentistica Elettronica,Sensori,PZ,60.58,539.81,810.99
+ART00674,"Tubi gomma 351",Semilavorati Gomma,Tubi gomma,PZ,50.24,60.89,117.38
+ART00675,"Adesivi 415",Prodotti Chimici,Adesivi,LT,40.31,129.85,251.19
+ART00676,"Trasformatori 555",Componentistica Elettronica,Trasformatori,PZ,87.58,268.56,328.48
+ART00677,"Tubi flessibili 386",Sistemi Idraulici,Tubi flessibili,PZ,34.32,974.88,1645.07
+ART00678,"Non tessuto 490",Tessuti Tecnici,Non tessuto,MQ,64.02,39.65,74
+ART00679,"Polipropilene 220",Materie Plastiche,Polipropilene,KG,48.76,28.82,38.13
+ART00680,"Valvole 666",Meccanica di Precisione,Valvole,PZ,40.81,420.88,765.62
+ART00681,"Etichette 785",Imballaggi Industriali,Etichette,PZ,12.69,23.2,30.49
+ART00682,"PVC 872",Materie Plastiche,PVC,KG,57.25,17.1,20.41
+ART00683,"Pompe centrifughe 183",Prodotti Finiti,Pompe centrifughe,PZ,27.86,2969.04,3815.68
+ART00684,"Vernici 781",Prodotti Chimici,Vernici,LT,85.85,187.43,362.35
+ART00685,"Non tessuto 607",Tessuti Tecnici,Non tessuto,MQ,33.44,499.81,736.28
+ART00686,"Accumulatori 451",Sistemi Idraulici,Accumulatori,PZ,1.52,1818.12,3452.74
+ART00687,"Etichette 944",Imballaggi Industriali,Etichette,PZ,40.37,7.06,13.26
+ART00688,"Ingranaggi 610",Meccanica di Precisione,Ingranaggi,PZ,82.2,91.98,134.08
+ART00689,"Kevlar 316",Tessuti Tecnici,Kevlar,MQ,14.99,426.52,675.78
+ART00690,"Acciaio al Carbonio 117",Acciaio e Metalli,Acciaio al Carbonio,KG,83.01,82.23,147.36
+ART00691,"Nastri 180",Semilavorati Gomma,Nastri,PZ,16.76,46.66,84.39
+ART00692,"ABS 825",Materie Plastiche,ABS,KG,51.09,35.03,54.57
+ART00693,"Resistenze 894",Componentistica Elettronica,Resistenze,PZ,19.53,344.06,676.4
+ART00694,"Acciaio al Carbonio 596",Acciaio e Metalli,Acciaio al Carbonio,KG,73.42,190.23,243.18
+ART00695,"Membrane 648",Semilavorati Gomma,Membrane,PZ,71.38,5.73,7.13
+ART00696,"PVC 431",Materie Plastiche,PVC,KG,74.6,16.66,21.28
+ART00697,"Quadri elettrici 319",Prodotti Finiti,Quadri elettrici,PZ,72.33,6841.35,9268.32
+ART00698,"Acciaio al Carbonio 635",Acciaio e Metalli,Acciaio al Carbonio,KG,7.09,154.01,195.32
+ART00699,"Condensatori 960",Componentistica Elettronica,Condensatori,PZ,74.94,386.27,489.89
+ART00700,"Nylon 712",Materie Plastiche,Nylon,KG,0.82,22.65,32.21
+ART00701,"Acciaio al Carbonio 686",Acciaio e Metalli,Acciaio al Carbonio,KG,37.32,98.98,126.86
+ART00702,"Paraoli 866",Semilavorati Gomma,Paraoli,PZ,64.44,23,35.89
+ART00703,"Contenitori metallo 581",Imballaggi Industriali,Contenitori metallo,PZ,83.22,9.32,15.83
+ART00704,"Pallet 462",Imballaggi Industriali,Pallet,PZ,55.48,18.59,23.6
+ART00705,"Membrana PTFE 747",Tessuti Tecnici,Membrana PTFE,MQ,48.99,76.02,151.93
+ART00706,"Adesivi 754",Prodotti Chimici,Adesivi,LT,61.54,54.91,77.12
+ART00707,"Titanio 173",Acciaio e Metalli,Titanio,KG,22.01,287.55,431.15
+ART00708,"Condensatori 501",Componentistica Elettronica,Condensatori,PZ,59.66,668.84,1143.4
+ART00709,"Teflon 890",Materie Plastiche,Teflon,KG,0.38,18.43,34.28
+ART00710,"Catalizzatori 324",Prodotti Chimici,Catalizzatori,LT,46.12,143.33,199.67
+ART00711,"Scambiatori calore 854",Prodotti Finiti,Scambiatori calore,PZ,28.35,7391.71,13347.81
+ART00712,"Acciaio al Carbonio 367",Acciaio e Metalli,Acciaio al Carbonio,KG,53.84,275.01,333.38
+ART00713,"Viti e Bulloni 745",Meccanica di Precisione,Viti e Bulloni,PZ,87.5,495.35,919.1
+ART00714,"Membrane 373",Semilavorati Gomma,Membrane,PZ,99.59,50.89,80.4
+ART00715,"Lubrificanti 603",Prodotti Chimici,Lubrificanti,LT,47.97,177.99,239.05
+ART00716,"Microcontrollori 689",Componentistica Elettronica,Microcontrollori,PZ,28.14,32.33,52.45
+ART00717,"Riduttori 224",Prodotti Finiti,Riduttori,PZ,9.86,3923.93,6664.81
+ART00718,"Raccordi 255",Sistemi Idraulici,Raccordi,PZ,45.56,764.6,1358.62
+ART00719,"Filtri industriali 387",Prodotti Finiti,Filtri industriali,PZ,89.02,1706.22,2140.6
+ART00720,"Membrana PTFE 445",Tessuti Tecnici,Membrana PTFE,MQ,58.9,114.71,193.08
+ART00721,"Teflon 390",Materie Plastiche,Teflon,KG,27.35,18.01,34.49
+ART00722,"Solventi 459",Prodotti Chimici,Solventi,LT,64.4,84.91,125.68
+ART00723,"Kevlar 218",Tessuti Tecnici,Kevlar,MQ,31.99,375.36,555.74
+ART00724,"Tubi flessibili 798",Sistemi Idraulici,Tubi flessibili,PZ,51.41,1571.45,1947.61
+ART00725,"Raccordi 560",Sistemi Idraulici,Raccordi,PZ,73.28,501.88,872.32
+ART00726,"Nylon 956",Materie Plastiche,Nylon,KG,14.19,30.55,60.26
+ART00727,"Solventi 453",Prodotti Chimici,Solventi,LT,95.99,25.98,37.42
+ART00728,"Kevlar 216",Tessuti Tecnici,Kevlar,MQ,88.92,177.95,296.46
+ART00729,"Scambiatori calore 635",Prodotti Finiti,Scambiatori calore,PZ,23.76,904.16,1177.71
+ART00730,"Polietilene 738",Materie Plastiche,Polietilene,KG,57.84,16.5,20.73
+ART00731,"Trasformatori 209",Componentistica Elettronica,Trasformatori,PZ,61.15,720.97,1166.4
+ART00732,"Non tessuto 671",Tessuti Tecnici,Non tessuto,MQ,87.98,498.8,836.42
+ART00733,"Guaine 566",Semilavorati Gomma,Guaine,PZ,23.25,13.76,18.52
+ART00734,"Valvole 330",Meccanica di Precisione,Valvole,PZ,96.49,160.82,218.97
+ART00735,"ABS 122",Materie Plastiche,ABS,KG,47.34,30.41,54.75
+ART00736,"Scambiatori calore 619",Prodotti Finiti,Scambiatori calore,PZ,59.88,6644.42,8378.91
+ART00737,"Viti e Bulloni 551",Meccanica di Precisione,Viti e Bulloni,PZ,66.42,104.83,132.24
+ART00738,"Rame 989",Acciaio e Metalli,Rame,KG,9.2,140.66,236.99
+ART00739,"Accumulatori 434",Sistemi Idraulici,Accumulatori,PZ,49.17,325.5,624.94
+ART00740,"ABS 865",Materie Plastiche,ABS,KG,78.51,33.72,62.28
+ART00741,"Film stretch 156",Imballaggi Industriali,Film stretch,PZ,36.22,16.03,23.27
+ART00742,"Reggette 581",Imballaggi Industriali,Reggette,PZ,98.77,3.5,4.57
+ART00743,"Alberi 706",Meccanica di Precisione,Alberi,PZ,27.16,566.88,707.7
+ART00744,"Solventi 804",Prodotti Chimici,Solventi,LT,54.3,185.88,342.87
+ART00745,"Nastri 877",Semilavorati Gomma,Nastri,PZ,98.24,43.65,65.01
+ART00746,"Scatole cartone 540",Imballaggi Industriali,Scatole cartone,PZ,43.98,17.56,31.19
+ART00747,"Polipropilene 267",Materie Plastiche,Polipropilene,KG,55.22,4.43,8.4
+ART00748,"Film stretch 347",Imballaggi Industriali,Film stretch,PZ,14.54,18.45,21.53
+ART00749,"Tubi flessibili 426",Sistemi Idraulici,Tubi flessibili,PZ,51.25,1986.46,3434.54
+ART00750,"Non tessuto 508",Tessuti Tecnici,Non tessuto,MQ,57.9,144.14,274.22
+ART00751,"Sensori 298",Componentistica Elettronica,Sensori,PZ,24.34,381.98,499.93
+ART00752,"Membrana PTFE 326",Tessuti Tecnici,Membrana PTFE,MQ,89.91,257.23,508.81
+ART00753,"Sensori 355",Componentistica Elettronica,Sensori,PZ,34.1,131.12,206.07
+ART00754,"Casse in legno 458",Imballaggi Industriali,Casse in legno,PZ,52.61,15.52,23.05
+ART00755,"Nastri 335",Semilavorati Gomma,Nastri,PZ,2.59,44.03,80.58
+ART00756,"Tessuto ignifugo 484",Tessuti Tecnici,Tessuto ignifugo,MQ,7.22,359.06,509.78
+ART00757,"Nylon 904",Materie Plastiche,Nylon,KG,88.75,37.64,44.53
+ART00758,"Nylon 396",Materie Plastiche,Nylon,KG,10.05,19.9,25.93
+ART00759,"Riduttori 920",Prodotti Finiti,Riduttori,PZ,51.3,5073.51,8121.07
+ART00760,"Fiberglass 440",Tessuti Tecnici,Fiberglass,MQ,88.48,483.73,879.09
+ART00761,"Etichette 182",Imballaggi Industriali,Etichette,PZ,79.63,14.23,22.28
+ART00762,"Paraoli 346",Semilavorati Gomma,Paraoli,PZ,59.21,78.06,145.9
+ART00763,"Teflon 666",Materie Plastiche,Teflon,KG,97.51,6.27,10.49
+ART00764,"Resine 941",Prodotti Chimici,Resine,LT,56.1,122.78,222.48
+ART00765,"PVC 388",Materie Plastiche,PVC,KG,69.21,36.59,46.96
+ART00766,"Raccordi 614",Sistemi Idraulici,Raccordi,PZ,59.49,192.53,349.17
+ART00767,"Titanio 366",Acciaio e Metalli,Titanio,KG,62.73,211.75,269.49
+ART00768,"Membrana PTFE 893",Tessuti Tecnici,Membrana PTFE,MQ,44.51,154.56,243.04
+ART00769,"ABS 348",Materie Plastiche,ABS,KG,49.88,29.95,52.02
+ART00770,"PVC 536",Materie Plastiche,PVC,KG,90.37,21.66,40.04
+ART00771,"Policarbonato 630",Materie Plastiche,Policarbonato,KG,47.85,21.18,34.27
+ART00772,"Molle 971",Meccanica di Precisione,Molle,PZ,17.85,413.51,696.4
+ART00773,"Pompe 497",Sistemi Idraulici,Pompe,PZ,31.98,226.04,327.28
+ART00774,"Contenitori metallo 206",Imballaggi Industriali,Contenitori metallo,PZ,47.29,29.94,46.63
+ART00775,"Pallet 246",Imballaggi Industriali,Pallet,PZ,74.39,28.73,36.98
+ART00776,"Tessuto ignifugo 316",Tessuti Tecnici,Tessuto ignifugo,MQ,94.04,412.84,688.06
+ART00777,"Connettori 482",Componentistica Elettronica,Connettori,PZ,88.18,522.32,752.19
+ART00778,"Membrana PTFE 682",Tessuti Tecnici,Membrana PTFE,MQ,43.82,118.28,208.78
+ART00779,"Rame 686",Acciaio e Metalli,Rame,KG,81.91,297.18,547.39
+ART00780,"Adesivi 710",Prodotti Chimici,Adesivi,LT,75.02,66.72,101.39
+ART00781,"Lubrificanti 207",Prodotti Chimici,Lubrificanti,LT,54.01,146.3,194.28
+ART00782,"Riduttori 883",Prodotti Finiti,Riduttori,PZ,20.07,5655.37,8114.38
+ART00783,"Alluminio 528",Acciaio e Metalli,Alluminio,KG,81.79,91.29,146.47
+ART00784,"Film stretch 225",Imballaggi Industriali,Film stretch,PZ,83.31,10.91,13.05
+ART00785,"Alluminio 696",Acciaio e Metalli,Alluminio,KG,84.78,219.85,309.13
+ART00786,"Pompe 154",Sistemi Idraulici,Pompe,PZ,57.28,1223.94,2255.44
+ART00787,"Pompe centrifughe 523",Prodotti Finiti,Pompe centrifughe,PZ,67.13,6828.22,9460.3
+ART00788,"Ghisa 672",Acciaio e Metalli,Ghisa,KG,4.77,217.14,304.91
+ART00789,"Non tessuto 300",Tessuti Tecnici,Non tessuto,MQ,68.59,273.5,380.9
+ART00790,"Membrane 223",Semilavorati Gomma,Membrane,PZ,98.79,9.82,18.48
+ART00791,"Resistenze 382",Componentistica Elettronica,Resistenze,PZ,78.99,377.97,668.03
+ART00792,"Connettori 907",Componentistica Elettronica,Connettori,PZ,37.62,743.39,1106.42
+ART00793,"Pompe 627",Sistemi Idraulici,Pompe,PZ,95.7,711.83,1264.09
+ART00794,"Pallet 232",Imballaggi Industriali,Pallet,PZ,77.14,21.34,31.91
+ART00795,"Scatole cartone 805",Imballaggi Industriali,Scatole cartone,PZ,28.86,25.15,32.43
+ART00796,"Resine 341",Prodotti Chimici,Resine,LT,47.68,127.74,151.46
+ART00797,"Teflon 607",Materie Plastiche,Teflon,KG,84.11,9.36,16.97
+ART00798,"Microcontrollori 157",Componentistica Elettronica,Microcontrollori,PZ,47.47,380.56,506.79
+ART00799,"Pompe 827",Sistemi Idraulici,Pompe,PZ,77.34,955.28,1419.36
+ART00800,"Pallet 916",Imballaggi Industriali,Pallet,PZ,29.97,27.49,31.98
+ART00801,"ABS 285",Materie Plastiche,ABS,KG,61.4,4.45,8.16
+ART00802,"Etichette 899",Imballaggi Industriali,Etichette,PZ,27.22,25.91,30.76
+ART00803,"Condensatori 414",Componentistica Elettronica,Condensatori,PZ,69.14,453.36,806.25
+ART00804,"Membrana PTFE 367",Tessuti Tecnici,Membrana PTFE,MQ,76.42,488.03,723.62
+ART00805,"Pompe centrifughe 849",Prodotti Finiti,Pompe centrifughe,PZ,2.81,6105.42,8221.68
+ART00806,"Membrana PTFE 168",Tessuti Tecnici,Membrana PTFE,MQ,41.95,255.72,375.72
+ART00807,"Molle 171",Meccanica di Precisione,Molle,PZ,24.23,247.5,302.09
+ART00808,"Fibra di carbonio 169",Tessuti Tecnici,Fibra di carbonio,MQ,49.91,414.33,576.53
+ART00809,"Kevlar 890",Tessuti Tecnici,Kevlar,MQ,25.57,117.89,170.31
+ART00810,"Etichette 336",Imballaggi Industriali,Etichette,PZ,77.55,22.25,38.75
+ART00811,"Etichette 895",Imballaggi Industriali,Etichette,PZ,85.38,29.9,59.67
+ART00812,"Scatole cartone 257",Imballaggi Industriali,Scatole cartone,PZ,64.56,2.11,2.73
+ART00813,"Guarnizioni 584",Meccanica di Precisione,Guarnizioni,PZ,39.52,56.71,74.94
+ART00814,"Contenitori metallo 383",Imballaggi Industriali,Contenitori metallo,PZ,38.62,2.6,3.76
+ART00815,"PCB 254",Componentistica Elettronica,PCB,PZ,21.8,142.92,274.15
+ART00816,"Cuscinetti 338",Meccanica di Precisione,Cuscinetti,PZ,72.23,195.74,352.93
+ART00817,"Valvole idrauliche 321",Sistemi Idraulici,Valvole idrauliche,PZ,53.89,1375.36,2246.94
+ART00818,"Membrane 715",Semilavorati Gomma,Membrane,PZ,13.1,19.98,38.98
+ART00819,"Acciaio Inox 998",Acciaio e Metalli,Acciaio Inox,KG,89.17,266.21,382.66
+ART00820,"Polipropilene 571",Materie Plastiche,Polipropilene,KG,55.29,30.76,48
+ART00821,"Scambiatori calore 949",Prodotti Finiti,Scambiatori calore,PZ,40.43,2041.37,4022.97
+ART00822,"Connettori 168",Componentistica Elettronica,Connettori,PZ,43.2,229.84,329.79
+ART00823,"Scatole cartone 998",Imballaggi Industriali,Scatole cartone,PZ,45.78,20.68,27.82
+ART00824,"Polipropilene 743",Materie Plastiche,Polipropilene,KG,25.7,5.76,8.63
+ART00825,"ABS 261",Materie Plastiche,ABS,KG,52.73,16.4,29.11
+ART00826,"Valvole 493",Meccanica di Precisione,Valvole,PZ,2.53,246.68,317.34
+ART00827,"Teflon 224",Materie Plastiche,Teflon,KG,25.02,3.12,4.33
+ART00828,"Cuscinetti 613",Meccanica di Precisione,Cuscinetti,PZ,30.19,374.13,717.9
+ART00829,"Trasformatori 104",Componentistica Elettronica,Trasformatori,PZ,1.82,33.48,44.11
+ART00830,"Motori elettrici 320",Prodotti Finiti,Motori elettrici,PZ,79.48,3619.61,7035.76
+ART00831,"Sensori 344",Componentistica Elettronica,Sensori,PZ,64.13,178.29,262.55
+ART00832,"Ingranaggi 548",Meccanica di Precisione,Ingranaggi,PZ,61.87,553.07,971.39
+ART00833,"Membrana PTFE 733",Tessuti Tecnici,Membrana PTFE,MQ,87.97,304.49,570.65
+ART00834,"Tessuto ignifugo 206",Tessuti Tecnici,Tessuto ignifugo,MQ,66.92,234.86,412.28
+ART00835,"Rame 566",Acciaio e Metalli,Rame,KG,89.09,101.85,127.09
+ART00836,"Filtri 629",Sistemi Idraulici,Filtri,PZ,77.95,1155.45,1983.57
+ART00837,"Alluminio 376",Acciaio e Metalli,Alluminio,KG,88.82,162.94,278.31
+ART00838,"Pompe centrifughe 761",Prodotti Finiti,Pompe centrifughe,PZ,58.05,6977.2,9918.9
+ART00839,"Teflon 499",Materie Plastiche,Teflon,KG,55.88,38.22,53.88
+ART00840,"ABS 951",Materie Plastiche,ABS,KG,23.79,18.79,36.54
+ART00841,"Solventi 952",Prodotti Chimici,Solventi,LT,3.69,95.94,139.35
+ART00842,"Fibra di carbonio 160",Tessuti Tecnici,Fibra di carbonio,MQ,48.58,315.41,398.43
+ART00843,"Membrana PTFE 155",Tessuti Tecnici,Membrana PTFE,MQ,47.94,348.8,586.61
+ART00844,"Resistenze 396",Componentistica Elettronica,Resistenze,PZ,63.15,787.29,1471.6
+ART00845,"Resistenze 103",Componentistica Elettronica,Resistenze,PZ,54.16,581.95,1104.37
+ART00846,"Zinco 932",Acciaio e Metalli,Zinco,KG,45.09,287.18,436.25
+ART00847,"Compressori 678",Prodotti Finiti,Compressori,PZ,29.84,2850.13,3960
+ART00848,"Acciaio Inox 185",Acciaio e Metalli,Acciaio Inox,KG,14.75,127.4,175.57
+ART00849,"PCB 166",Componentistica Elettronica,PCB,PZ,40.94,297.4,544.81
+ART00850,"Casse in legno 831",Imballaggi Industriali,Casse in legno,PZ,79.73,4.74,6.74
+ART00851,"Pallet 403",Imballaggi Industriali,Pallet,PZ,57.3,27.91,49.94
+ART00852,"Ingranaggi 519",Meccanica di Precisione,Ingranaggi,PZ,95.01,355.56,575.58
+ART00853,"Nylon 776",Materie Plastiche,Nylon,KG,56.91,22.71,42.78
+ART00854,"Valvole 189",Meccanica di Precisione,Valvole,PZ,31.07,589.78,765.48
+ART00855,"Riduttori 650",Prodotti Finiti,Riduttori,PZ,43.35,4604.95,7605.94
+ART00856,"Vernici 200",Prodotti Chimici,Vernici,LT,67.07,125.63,148.13
+ART00857,"Tubi flessibili 297",Sistemi Idraulici,Tubi flessibili,PZ,56.5,956.4,1548.71
+ART00858,"Accumulatori 552",Sistemi Idraulici,Accumulatori,PZ,51.3,330.62,580.61
+ART00859,"Acciaio al Carbonio 547",Acciaio e Metalli,Acciaio al Carbonio,KG,80.82,282.45,394.26
+ART00860,"Teflon 125",Materie Plastiche,Teflon,KG,96.11,15.85,19.73
+ART00861,"Solventi 686",Prodotti Chimici,Solventi,LT,81.24,149.21,267.23
+ART00862,"Zinco 893",Acciaio e Metalli,Zinco,KG,99.55,126.71,207.83
+ART00863,"Film stretch 681",Imballaggi Industriali,Film stretch,PZ,21.03,29.54,39.25
+ART00864,"Etichette 771",Imballaggi Industriali,Etichette,PZ,10.8,22.57,42.57
+ART00865,"Fibra di carbonio 489",Tessuti Tecnici,Fibra di carbonio,MQ,41.62,30.77,47.4
+ART00866,"Tubi gomma 410",Semilavorati Gomma,Tubi gomma,PZ,81.64,55.44,87.06
+ART00867,"Compressori 291",Prodotti Finiti,Compressori,PZ,8.79,1300.11,2126.99
+ART00868,"Accumulatori 854",Sistemi Idraulici,Accumulatori,PZ,71.16,1136.68,1560.11
+ART00869,"Filtri 266",Sistemi Idraulici,Filtri,PZ,55.17,163.91,263.09
+ART00870,"Rame 705",Acciaio e Metalli,Rame,KG,95.89,230.74,267.16
+ART00871,"Reggette 576",Imballaggi Industriali,Reggette,PZ,73.55,17.24,27.21
+ART00872,"Rame 779",Acciaio e Metalli,Rame,KG,42.51,175.94,336.75
+ART00873,"Titanio 648",Acciaio e Metalli,Titanio,KG,40.79,280.31,455.57
+ART00874,"Connettori 141",Componentistica Elettronica,Connettori,PZ,85.32,452.09,813.79
+ART00875,"Tubi flessibili 652",Sistemi Idraulici,Tubi flessibili,PZ,76.92,1795.54,2312.19
+ART00876,"Membrana PTFE 955",Tessuti Tecnici,Membrana PTFE,MQ,75.77,283.39,406.08
+ART00877,"Lubrificanti 231",Prodotti Chimici,Lubrificanti,LT,69.32,124.29,218.48
+ART00878,"Teflon 182",Materie Plastiche,Teflon,KG,96.03,10.58,15.36
+ART00879,"Adesivi 525",Prodotti Chimici,Adesivi,LT,16.35,66.84,128.31
+ART00880,"Policarbonato 412",Materie Plastiche,Policarbonato,KG,94,6.96,13.66
+ART00881,"Geotessile 489",Tessuti Tecnici,Geotessile,MQ,70.44,33.05,59.18
+ART00882,"Lubrificanti 319",Prodotti Chimici,Lubrificanti,LT,41.84,76.36,135.59
+ART00883,"Kevlar 305",Tessuti Tecnici,Kevlar,MQ,85.09,379.96,610.51
+ART00884,"Fibra di carbonio 178",Tessuti Tecnici,Fibra di carbonio,MQ,85.15,416.07,633.2
+ART00885,"Filtri industriali 631",Prodotti Finiti,Filtri industriali,PZ,95.66,1670.01,1938.9
+ART00886,"Lubrificanti 468",Prodotti Chimici,Lubrificanti,LT,75.2,79.61,105.19
+ART00887,"Valvole idrauliche 146",Sistemi Idraulici,Valvole idrauliche,PZ,88.42,1393.63,2322.37
+ART00888,"Titanio 657",Acciaio e Metalli,Titanio,KG,1.1,264.64,469.69
+ART00889,"Pompe 378",Sistemi Idraulici,Pompe,PZ,37.75,1486.2,2343.32
+ART00890,"Fiberglass 956",Tessuti Tecnici,Fiberglass,MQ,64.37,154.35,298.01
+ART00891,"Membrana PTFE 921",Tessuti Tecnici,Membrana PTFE,MQ,16.07,487,881.96
+ART00892,"Acciaio Inox 171",Acciaio e Metalli,Acciaio Inox,KG,62.92,280,478.62
+ART00893,"Membrana PTFE 784",Tessuti Tecnici,Membrana PTFE,MQ,6.25,418.48,498.4
+ART00894,"Quadri elettrici 989",Prodotti Finiti,Quadri elettrici,PZ,76.74,2425.94,2847.79
+ART00895,"Molle 227",Meccanica di Precisione,Molle,PZ,71.01,94.85,129.16
+ART00896,"Alberi 994",Meccanica di Precisione,Alberi,PZ,72.39,61.61,70.88
+ART00897,"Tubi gomma 375",Semilavorati Gomma,Tubi gomma,PZ,59.35,26.54,41.93
+ART00898,"Teflon 992",Materie Plastiche,Teflon,KG,68.55,9.85,13.9
+ART00899,"Non tessuto 818",Tessuti Tecnici,Non tessuto,MQ,54.31,485.31,662.39
+ART00900,"Tessuto ignifugo 368",Tessuti Tecnici,Tessuto ignifugo,MQ,29.79,162.46,219.18
+ART00901,"Scambiatori calore 129",Prodotti Finiti,Scambiatori calore,PZ,91.99,1445.57,1695.46
+ART00902,"Vernici 745",Prodotti Chimici,Vernici,LT,80.76,151.31,224.54
+ART00903,"Teflon 873",Materie Plastiche,Teflon,KG,6.44,17.38,28.89
+ART00904,"Kevlar 690",Tessuti Tecnici,Kevlar,MQ,57.93,409.38,737.01
+ART00905,"Zinco 180",Acciaio e Metalli,Zinco,KG,80.13,155.49,231.28
+ART00906,"Motori elettrici 487",Prodotti Finiti,Motori elettrici,PZ,41.2,4362.49,7131.23
+ART00907,"Non tessuto 298",Tessuti Tecnici,Non tessuto,MQ,4.66,365.51,516.73
+ART00908,"Acciaio al Carbonio 191",Acciaio e Metalli,Acciaio al Carbonio,KG,32.39,167.02,298.62
+ART00909,"Tubi flessibili 862",Sistemi Idraulici,Tubi flessibili,PZ,81.4,1745.8,2645.15
+ART00910,"Titanio 508",Acciaio e Metalli,Titanio,KG,72.97,85.09,106.6
+ART00911,"Guarnizioni 548",Meccanica di Precisione,Guarnizioni,PZ,16.78,44.63,61.29
+ART00912,"Nylon 990",Materie Plastiche,Nylon,KG,18.07,16.19,25.24
+ART00913,"Scambiatori calore 875",Prodotti Finiti,Scambiatori calore,PZ,91.9,2033.12,3075.13
+ART00914,"Ingranaggi 120",Meccanica di Precisione,Ingranaggi,PZ,9.09,105.31,142.24
+ART00915,"Pallet 696",Imballaggi Industriali,Pallet,PZ,11.12,7.3,14.37
+ART00916,"Profili 334",Semilavorati Gomma,Profili,PZ,11.96,38.52,54.89
+ART00917,"Guaine 687",Semilavorati Gomma,Guaine,PZ,59.33,14.53,25.34
+ART00918,"Nastri 511",Semilavorati Gomma,Nastri,PZ,13.38,69.46,108.87
+ART00919,"Acciaio al Carbonio 518",Acciaio e Metalli,Acciaio al Carbonio,KG,22.67,269.87,386.4
+ART00920,"Ingranaggi 115",Meccanica di Precisione,Ingranaggi,PZ,92.14,262.47,352.35
+ART00921,"Rame 368",Acciaio e Metalli,Rame,KG,52.24,208.42,266.34
+ART00922,"Pallet 679",Imballaggi Industriali,Pallet,PZ,7.66,12.28,23.32
+ART00923,"Lubrificanti 721",Prodotti Chimici,Lubrificanti,LT,75.61,182,298.21
+ART00924,"Rame 467",Acciaio e Metalli,Rame,KG,73.1,197.97,360.48
+ART00925,"PVC 854",Materie Plastiche,PVC,KG,85.73,6.72,13.02
+ART00926,"Vernici 845",Prodotti Chimici,Vernici,LT,5.08,85.76,129.51
+ART00927,"Cilindri 296",Sistemi Idraulici,Cilindri,PZ,62,633.69,787.27
+ART00928,"Kevlar 852",Tessuti Tecnici,Kevlar,MQ,67.22,438.5,836.99
+ART00929,"Molle 538",Meccanica di Precisione,Molle,PZ,3.18,392.24,490.5
+ART00930,"Ingranaggi 754",Meccanica di Precisione,Ingranaggi,PZ,49.81,554.28,786.97
+ART00931,"Riduttori 902",Prodotti Finiti,Riduttori,PZ,76.73,1094.4,1771.83
+ART00932,"Alluminio 519",Acciaio e Metalli,Alluminio,KG,52.57,164.92,314.67
+ART00933,"Polipropilene 704",Materie Plastiche,Polipropilene,KG,14.41,12.99,20.9
+ART00934,"PCB 950",Componentistica Elettronica,PCB,PZ,62.95,83.12,142.84
+ART00935,"Nylon 285",Materie Plastiche,Nylon,KG,8.73,37.09,67.14
+ART00936,"Tubi flessibili 151",Sistemi Idraulici,Tubi flessibili,PZ,46.92,1656.87,2429.82
+ART00937,"Membrane 877",Semilavorati Gomma,Membrane,PZ,89.97,61.89,100.62
+ART00938,"Lubrificanti 735",Prodotti Chimici,Lubrificanti,LT,94.63,150.45,272.64
+ART00939,"O-Ring 827",Semilavorati Gomma,O-Ring,PZ,88.46,41.64,48.82
+ART00940,"Motori elettrici 183",Prodotti Finiti,Motori elettrici,PZ,88,3612.63,5595.1
+ART00941,"Contenitori metallo 316",Imballaggi Industriali,Contenitori metallo,PZ,11.76,28.58,57.04
+ART00942,"Scambiatori calore 911",Prodotti Finiti,Scambiatori calore,PZ,82.47,5661.88,11288.43
+ART00943,"Pompe 823",Sistemi Idraulici,Pompe,PZ,91.58,1694.48,2078.7
+ART00944,"Polipropilene 316",Materie Plastiche,Polipropilene,KG,20.07,21.51,38.38
+ART00945,"Membrana PTFE 233",Tessuti Tecnici,Membrana PTFE,MQ,79.85,412.83,500.52
+ART00946,"Kevlar 501",Tessuti Tecnici,Kevlar,MQ,16.15,51.95,64.64
+ART00947,"O-Ring 893",Semilavorati Gomma,O-Ring,PZ,98.95,40.39,65.2
+ART00948,"Valvole 199",Meccanica di Precisione,Valvole,PZ,86.65,434.01,735.91
+ART00949,"Filtri industriali 446",Prodotti Finiti,Filtri industriali,PZ,75.54,5364.92,8242.97
+ART00950,"Membrane 951",Semilavorati Gomma,Membrane,PZ,8.4,14.65,21.4
+ART00951,"Fibra di carbonio 324",Tessuti Tecnici,Fibra di carbonio,MQ,12.81,91.17,109.65
+ART00952,"Filtri 401",Sistemi Idraulici,Filtri,PZ,29.54,521.18,808.42
+ART00953,"Scambiatori calore 359",Prodotti Finiti,Scambiatori calore,PZ,80.75,5239.65,7419.15
+ART00954,"Paraoli 717",Semilavorati Gomma,Paraoli,PZ,72.09,26.57,52.15
+ART00955,"Condensatori 445",Componentistica Elettronica,Condensatori,PZ,29.26,549.6,987.73
+ART00956,"Motori elettrici 956",Prodotti Finiti,Motori elettrici,PZ,94.13,6313.94,7262.86
+ART00957,"Adesivi 676",Prodotti Chimici,Adesivi,LT,53.58,135.49,211.58
+ART00958,"Microcontrollori 925",Componentistica Elettronica,Microcontrollori,PZ,3.61,437.22,558.3
+ART00959,"Riduttori 626",Prodotti Finiti,Riduttori,PZ,66.97,2903.35,4946.05
+ART00960,"Contenitori metallo 201",Imballaggi Industriali,Contenitori metallo,PZ,40.92,10.13,16.55
+ART00961,"Profili 450",Semilavorati Gomma,Profili,PZ,60.12,40.87,70.46
+ART00962,"Solventi 526",Prodotti Chimici,Solventi,LT,72.6,195.09,380.6
+ART00963,"Polietilene 422",Materie Plastiche,Polietilene,KG,52.12,15.57,19.39
+ART00964,"Filtri industriali 182",Prodotti Finiti,Filtri industriali,PZ,63.23,5469.25,9971.21
+ART00965,"Zinco 253",Acciaio e Metalli,Zinco,KG,62.57,147.2,261.23
+ART00966,"Molle 714",Meccanica di Precisione,Molle,PZ,17.75,45.67,63.6
+ART00967,"O-Ring 631",Semilavorati Gomma,O-Ring,PZ,59.64,64.83,99.41
+ART00968,"Filtri 650",Sistemi Idraulici,Filtri,PZ,11.32,1963.68,3609.55
+ART00969,"Trasformatori 690",Componentistica Elettronica,Trasformatori,PZ,63.59,355.04,706.51
+ART00970,"Connettori 643",Componentistica Elettronica,Connettori,PZ,49.04,513.07,969.71
+ART00971,"Tubi gomma 601",Semilavorati Gomma,Tubi gomma,PZ,10.65,67.2,106.78
+ART00972,"Raccordi 537",Sistemi Idraulici,Raccordi,PZ,22.58,1683.65,2092.01
+ART00973,"Acciaio al Carbonio 734",Acciaio e Metalli,Acciaio al Carbonio,KG,6.82,193.59,326.73
+ART00974,"Detergenti 616",Prodotti Chimici,Detergenti,LT,56.05,175.92,274.24
+ART00975,"Ingranaggi 750",Meccanica di Precisione,Ingranaggi,PZ,26.19,118.06,173.49
+ART00976,"Guaine 610",Semilavorati Gomma,Guaine,PZ,58.11,31.5,60.41
+ART00977,"Zinco 397",Acciaio e Metalli,Zinco,KG,33.78,267.99,353.17
+ART00978,"Paraoli 152",Semilavorati Gomma,Paraoli,PZ,22.7,69.09,132.45
+ART00979,"Acciaio Inox 438",Acciaio e Metalli,Acciaio Inox,KG,37.16,291.16,348.89
+ART00980,"Casse in legno 109",Imballaggi Industriali,Casse in legno,PZ,45.46,2.9,3.52
+ART00981,"Catalizzatori 532",Prodotti Chimici,Catalizzatori,LT,96.94,49.76,59.98
+ART00982,"Fiberglass 844",Tessuti Tecnici,Fiberglass,MQ,48.06,96.72,143.98
+ART00983,"Valvole idrauliche 147",Sistemi Idraulici,Valvole idrauliche,PZ,50.53,1719.68,2487.42
+ART00984,"Motori elettrici 867",Prodotti Finiti,Motori elettrici,PZ,27.65,3529.97,6116.48
+ART00985,"Tessuto ignifugo 665",Tessuti Tecnici,Tessuto ignifugo,MQ,29.04,410.39,491.04
+ART00986,"Condensatori 492",Componentistica Elettronica,Condensatori,PZ,73.57,97.33,173.72
+ART00987,"Profili 815",Semilavorati Gomma,Profili,PZ,71.84,43.81,75.29
+ART00988,"Lubrificanti 908",Prodotti Chimici,Lubrificanti,LT,18.5,93.6,110.53
+ART00989,"Polipropilene 258",Materie Plastiche,Polipropilene,KG,68.68,29.93,36.19
+ART00990,"Lubrificanti 118",Prodotti Chimici,Lubrificanti,LT,16.39,192.66,359.23
+ART00991,"Fibra di carbonio 283",Tessuti Tecnici,Fibra di carbonio,MQ,83.85,213.1,424.23
+ART00992,"Rame 927",Acciaio e Metalli,Rame,KG,64.07,267.55,377.34
+ART00993,"O-Ring 706",Semilavorati Gomma,O-Ring,PZ,42.17,45.26,83
+ART00994,"Guaine 460",Semilavorati Gomma,Guaine,PZ,9.07,61.6,115.27
+ART00995,"Adesivi 383",Prodotti Chimici,Adesivi,LT,81.55,148.14,274.58
+ART00996,"Acciaio Inox 255",Acciaio e Metalli,Acciaio Inox,KG,10.5,138.51,246.69
+ART00997,"Solventi 863",Prodotti Chimici,Solventi,LT,1.62,70.19,111.73
+ART00998,"Filtri industriali 556",Prodotti Finiti,Filtri industriali,PZ,45.46,1447.74,2822.2
+ART00999,"Valvole idrauliche 358",Sistemi Idraulici,Valvole idrauliche,PZ,63.36,1960.59,2755.1
+ART01000,"Paraoli 303",Semilavorati Gomma,Paraoli,PZ,77.99,6.09,9.15

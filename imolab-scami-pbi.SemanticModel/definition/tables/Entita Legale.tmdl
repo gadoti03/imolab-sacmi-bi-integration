@@ -1,0 +1,33 @@
+table 'Entita Legale'
+	lineageTag: 67e3a5d2-b388-40b3-8947-a2fe1658f745
+
+	column legal_entity
+		dataType: string
+		lineageTag: 96513cc7-84b6-4835-8c54-b9f150e0e210
+		summarizeBy: none
+		sourceColumn: legal_entity
+
+		annotation SummarizationSetBy = Automatic
+
+	column nazione
+		dataType: string
+		lineageTag: a901533e-633d-4c79-af00-c7a2a97a8504
+		summarizeBy: none
+		sourceColumn: nazione
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Entita Legale' = m
+		mode: import
+		source =
+				let
+				    Source = Magazzini,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"legal_entity", "nazione"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns")
+				in
+				    #"Removed Duplicates"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

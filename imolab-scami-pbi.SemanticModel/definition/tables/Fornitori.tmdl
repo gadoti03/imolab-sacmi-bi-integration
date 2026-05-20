@@ -1,0 +1,90 @@
+table Fornitori
+	lineageTag: 2cfa3f31-206c-4cf8-b6bc-066e89b1b60f
+
+	column cod_fornitore
+		dataType: string
+		lineageTag: 7c0460a5-aa09-4116-8b59-60b0fe4202ee
+		summarizeBy: none
+		sourceColumn: cod_fornitore
+
+		annotation SummarizationSetBy = Automatic
+
+	column partita_iva
+		dataType: string
+		lineageTag: 5cab8515-b1f4-4d46-8fdb-ed93e0c94d9b
+		summarizeBy: none
+		sourceColumn: partita_iva
+
+		annotation SummarizationSetBy = Automatic
+
+	column ragione_sociale
+		dataType: string
+		lineageTag: 44059a9c-05aa-401a-a88f-0421590740e0
+		summarizeBy: none
+		sourceColumn: ragione_sociale
+
+		annotation SummarizationSetBy = Automatic
+
+	column via
+		dataType: string
+		lineageTag: 5cb9f12d-dc8a-4c42-93a9-a7da3c9e004f
+		summarizeBy: none
+		sourceColumn: via
+
+		annotation SummarizationSetBy = Automatic
+
+	column comune
+		dataType: string
+		lineageTag: bf75b7d2-7fa1-4ef4-a379-3785551515bb
+		summarizeBy: none
+		sourceColumn: comune
+
+		annotation SummarizationSetBy = Automatic
+
+	column nazione
+		dataType: string
+		lineageTag: 74973159-c868-46b6-98fd-a0153eec4c2b
+		summarizeBy: none
+		sourceColumn: nazione
+
+		annotation SummarizationSetBy = Automatic
+
+	column cap
+		dataType: int64
+		formatString: 0
+		lineageTag: 282c4f9c-a32a-42a5-b4ca-f34153f8f514
+		summarizeBy: none
+		sourceColumn: cap
+
+		annotation SummarizationSetBy = Automatic
+
+	column categoria_principale
+		dataType: string
+		lineageTag: d6911368-8d72-4288-b48d-b5caa6b8ed2c
+		summarizeBy: none
+		sourceColumn: categoria_principale
+
+		annotation SummarizationSetBy = Automatic
+
+	column legal_entity
+		dataType: string
+		lineageTag: 0b96e681-1bc1-4976-a30e-93f6623c3623
+		summarizeBy: none
+		sourceColumn: legal_entity
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fornitori = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(REPO_ROOT & "\data\erp_gamma_anag_fornitori.csv"),[Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"cod_fornitore", type text}, {"partita_iva", type text}, {"ragione_sociale", type text}, {"via", type text}, {"comune", type text}, {"nazione", type text}, {"cap", Int64.Type}, {"categoria_principale", type text}, {"legal_entity", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
