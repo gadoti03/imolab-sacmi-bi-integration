@@ -9,9 +9,9 @@ The goal is to consolidate data from multiple ERP systems, build a unified data 
 ## Project Structure
 ```
 .
-├── data/                          # Raw and processed datasets
+├── data/                         # Raw and processed datasets
 ├── imolab-scami-pbi.pbip         # Power BI project file
-├── ScreenRecording.mp4           # Dashboard demo recording
+├── ScreenRecording.zip           # Dashboard demo recording
 └── README.md
 ```
 
@@ -40,24 +40,14 @@ To open the project:
 ---
 
 ## Demo
-A full walkthrough of the dashboards is available in:
-```
-ScreenRecording.mp4
-```
+<Screen recording of the application in action>
+
+![Demo](ScreenRecording.gif)
+
+> Demonstration of the Power BI dashboard integrated with multi-ERP data pipeline and KPI visualization
 
 It shows:
-- Data integration pipeline
-- KPI definitions
 - Dashboard navigation and insights
-
----
-
-## Key Features
-- Integration of multiple ERP sources
-- Medallion data architecture design
-- KPI definition and calculation
-- Interactive Power BI dashboards
-- Business performance monitoring
 
 ---
 
