@@ -4,6 +4,8 @@
 This project implements a data integration and business intelligence solution developed during the ImoLab Hackathon in collaboration with Sacmi.  
 The goal is to consolidate data from multiple ERP systems, build a unified data model, and provide analytical dashboards in Power BI.
 
+![Pagina 1](docs/report_page1.png)
+
 ---
 
 ## Project Structure
