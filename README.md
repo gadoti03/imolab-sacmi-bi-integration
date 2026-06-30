@@ -1,10 +1,10 @@
 # ImoLab Sacmi BI Integration
 
 ## Overview
-This project implements a data integration and business intelligence solution developed during the ImoLab Hackathon in collaboration with Sacmi.  
+This project implements a data integration and business intelligence solution developed during the ImoLab innovation program in collaboration with Sacmi.  
 The goal is to consolidate data from multiple ERP systems, build a unified data model, and provide analytical dashboards in Power BI.
 
-[Open PDF](ImoLab_Sacmi_Pitch.pdf)
+[Open Presentation](ImoLab_Sacmi_Pitch.pdf)
 
 ---
 
