@@ -60,4 +60,4 @@ It shows:
 ---
 
 ## Author
-Developed as part of ImoLab Hackathon collaboration with Sacmi.
+Developed as part of ImoLab innovation program collaboration with Sacmi.
